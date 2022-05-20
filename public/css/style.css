@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   }
+   
+   body{
+    background: #ffffff;
+   }
+   
+   div.wrapper{
+    background: #ffffff;
+    width: 350px;
+    margin: 200px auto 0;
+    border-radius: 16px;
+    min-height: 256px;
+    overflow: hidden;
+    border: 3px solid whitesmoke;
+   }
+   
+   div.wrapper-header{
+    background: #57B846;
+    padding: 10px 22px;
+    height: 60px;
+   }
+   
+   div.wrapper-header h2.title{
+    color: #fff;
+    font-weight: normal;
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 110px;
+   }
+   .logodurian img{
+       width: 100px;
+   }
+   .icons{
+       position: absolute;
+       margin-top: 5px;
+       margin-left: -5px;
+   }
+   
+   div.wrapper-main{
+    padding:10px 22px 0;
+    color: #808080;
+   }
+   
+   div.wrapper-main div.group{
+    margin: 16px 0;
+   }
+   
+   div.wrapper-main div.group label,
+   div.wrapper-main div.group input{
+    display: block;
+   }
+   
+   div.wrapper-main div.group label{
+    font-size: 13px;
+    margin-bottom: 10px;
+   }
+   
+   div.wrapper-main div.group input[type="text"],
+   div.wrapper-main div.group input[type="password"]{
+    width: 93%;
+    height: 30px;
+    padding: 0 10px;
+    background: #eeeeee;
+    border:none;
+    color: #808080;
+    margin-left: 20px;
+   }
+   
+   div.wrapper-main div.group input[type="submit"]{
+    background: #57B846;
+    padding: 6px 18px;
+    margin: 20px auto;
+    border: 1px solid #57B846;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+   }
+   
+   div.wrapper-main div.group input[type="submit"]:hover{
+    background: #57B846;
+    border: 1px solid #57B846;
+   }
+   
+   div.wrapper-main div.group input[type="reset"] {
+    background: #dd4b39;
+    padding: 6px 18px;
+    margin: 0 auto;
+    border: 1px solid #dd4b39;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+   }
+   
+   div.wrapper-main div.group input[type="reset"]:hover{
+    background: #df2029;
+    border: 1px solid #df2029;
+   }
+   h3{
+       position: relative;
+       padding-left: 150px;
+       font-size: 10px;
+       color: black;
+   }
+   h4{
+    position: relative;
+    padding-left: 97px;
+    font-size: 10px;
+    color: black;
+   }
+   h5{
+       position: relative;
+       text-align: center;
+       font-size: 15px;
+       color: #57B846;
+   }
+   h6{
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-left: 350px;
+    padding-bottom: 350px;
+    
+}
+   /* box cart */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 1000px;
+    /* background-color: #b8926a; */
+    background-color: #57B846;
+    padding: 16px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+
+.card-action{
+    position: absolute;
+    bottom: 70px;
+    right: 170px;
+    padding: 20px;
+    
+}
