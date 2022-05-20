@@ -15,7 +15,7 @@
             <div class="row" style="margin-top: -120px;">
                 <div class="col">
                     <img src="img/image-gallery.png" alt="image-gallery.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto; margin-top: 150px;">
-                    <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; align-items: center; position: absolute; left: 45%; margin-top: 20px;">Insert Photo</button>
+                    <button type="button" class="btn d-flex justify-content-center align-center" style="background-color: #D0F2A4; align-items: center; position: absolute; left: 45%; margin-top: 20px;">Insert Photo</button>
                 </div>
                 <div class="col" style="margin-top: 230px">
                     <div class="form-group row">
@@ -33,7 +33,7 @@
                             <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border: none;" placeholder="Keterangan">
                         </div>
                     </div>
-                    <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; margin-top: 54px; position: absolute; align-items: right; right: 19%;">Insert</button>
+                    <button type="button" class="btn d-flex justify-content-center align-center" style="background-color: #D0F2A4; margin-top: 54px; position: absolute; align-items: right; right: 19%;">Insert</button>
                 </div>
             </div>
         </div>
