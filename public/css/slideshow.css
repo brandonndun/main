@@ -1,0 +1,53 @@
+.carrousel-product{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.carousel-home{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.judul{
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 45px;
+}
+.youtube_page {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.katalog-home {
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 50px;
+    
+    
+}
+
+.card-deck {
+    padding-top: 20px;
+}
+
+.gmaps {
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: black;
+}
+
+.katalog-product{
+    width: 70%;
+    margin-left: 15%;
+}
+
+ 
+.judul1{
+    border-top: black 5px;
+    background-color: black;
+}
