@@ -27,3 +27,6 @@ Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
 });
 
+Route::get('/insert_product', function () {
+    return view('insertproduct');
+});
