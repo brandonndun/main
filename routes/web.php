@@ -29,3 +29,7 @@ Route::get('/tagihan_cicilan', function () {
 Route::get('/', function () {
     return view('signin');
 });
+Route::get('/signups', function () {
+    return view('signups');
+});
+
