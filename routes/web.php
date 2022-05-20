@@ -17,7 +17,7 @@ Route::get('/send_product', function () {
     return view('send_product');
 });
 
-Route::get('/login', function () {
+Route::get('/', function () {
     return view('login');
 });
 Route::get('/reduce_product', function () {
@@ -25,6 +25,10 @@ Route::get('/reduce_product', function () {
 });
 Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
+});
+
+Route::get('/insert_product', function () {
+    return view('insertproduct');
 });
 
 Route::get('/insert_product', function () {
