@@ -35,6 +35,13 @@ Route::get('/editproduct', function () {
 Route::get('/insertproduct2', function () {
     return view('insertproduct2');
 });
+Route::get('/navbar', function () {
+    return view('navbar');
+});
+Route::get('/transaksi', function () {
+    return view('tagihan_cicilan');
+});
+
 
 
 Route::get('/insert_product', function () {
@@ -43,4 +50,8 @@ Route::get('/insert_product', function () {
 
 Route::get('/insert_product', function () {
     return view('insertproduct');
+});
+
+Route::get('/stockopname', function () {
+    return view('stockopname');
 });
