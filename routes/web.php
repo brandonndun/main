@@ -32,4 +32,7 @@ Route::get('/', function () {
 Route::get('/signups', function () {
     return view('signups');
 });
+Route::get('/signin', function () {
+    return view('signin');
+});
 
