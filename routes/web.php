@@ -17,7 +17,7 @@ Route::get('/send_product', function () {
     return view('send_product');
 });
 
-Route::get('/login', function () {
+Route::get('/', function () {
     return view('login');
 });
 Route::get('/reduce_product', function () {
@@ -37,3 +37,10 @@ Route::get('/insertproduct2', function () {
 });
 
 
+Route::get('/insert_product', function () {
+    return view('insertproduct');
+});
+
+Route::get('/insert_product', function () {
+    return view('insertproduct');
+});
