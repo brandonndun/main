@@ -16,10 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/send_product', function () {
     return view('send_product');
 });
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 
 Route::get('/warehouse', function () {
     return view('warehouse');
-    return view('login');
+
 });
 Route::get('/reduce_product', function () {
     return view('reduce_product');
@@ -27,6 +31,13 @@ Route::get('/reduce_product', function () {
 Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
 });
+Route::get('/', function () {
+    return view('signin');
+});
+Route::get('/signups', function () {
+    return view('signups');
+});
+
 Route::get('/product', function () {
     return view('product');
 });
@@ -41,10 +52,8 @@ Route::get('/navbar', function () {
 });
 Route::get('/transaksi', function () {
     return view('tagihan_cicilan');
+    
 });
-
-
-
 Route::get('/insert_product', function () {
     return view('insertproduct');
 });

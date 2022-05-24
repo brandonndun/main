@@ -15,30 +15,30 @@
             <h2 class="title">Sign In</h2>
         </div>
         <div class="wrapper-main">
-            <form action="#" method="post">
+            <form action="/welcome" method="post">
                 <div class="group">
                     <label for="email">Username</label>
                     <div class="icons">
                         <i class="fa-solid fa-circle-user"></i>
                     </div>
                         <input type="text" placeholder="Username">
+                </div>
+                <div class="group">
+                    <label for="password">Password</label>
+                    <div class="icons">
+                        <i class="fa-solid fa-lock"></i>
                     </div>
- <div class="group">
- <label for="password">Password</label>
- <div class="icons">
-     <i class="fa-solid fa-lock"></i>
- </div>
- <input type="password" placeholder="Password">
- </div>
- <h3 >Forget username/password ?</h3>
- <div class="group">
- <input type="submit" value="Sign In">
- <!-- <input type="reset" value="Reset"> -->
- <h4>Don't have an account?</h4>
- <h5><a href ="/signups">SIGN UP NOW</h5>
- </div>
- </form>
- </div>
- </div>
+                    <input type="password" placeholder="Password">
+                </div>
+                <h3>Forget username/password ?</h3>
+                <div class="group">
+                    <input type="submit" value="Sign In">
+            <!-- <input type="reset" value="Reset"> -->
+                    <h4>Don't have an account?</h4>
+                    <h5><a href ="/signups">SIGN UP NOW</h5>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
