@@ -26,4 +26,13 @@ Route::get('/reduce_product', function () {
 Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
 });
+Route::get('/', function () {
+    return view('signin');
+});
+Route::get('/signups', function () {
+    return view('signups');
+});
+Route::get('/signin', function () {
+    return view('signin');
+});
 
