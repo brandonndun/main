@@ -15,7 +15,7 @@
             <h2 class="title">Sign In</h2>
         </div>
         <div class="wrapper-main">
-            <form action="/welcome" method="post">
+            <form action="/home" method="post">
                 <div class="group">
                     <label for="email">Username</label>
                     <div class="icons">
