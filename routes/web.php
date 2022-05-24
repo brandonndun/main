@@ -67,3 +67,4 @@ Route::get('/stockopname', function () {
 Route::get('/home', function () {
     return view('home');
 });
+// Route::post('/home');
