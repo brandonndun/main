@@ -17,8 +17,9 @@ Route::get('/send_product', function () {
     return view('send_product');
 });
 
-Route::get('/', function () {
+Route::get('/warehouse', function () {
     return view('warehouse');
+    return view('login');
 });
 Route::get('/reduce_product', function () {
     return view('reduce_product');
@@ -26,11 +27,32 @@ Route::get('/reduce_product', function () {
 Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
 });
-Route::get('/', function () {
-    return view('signin');
+Route::get('/product', function () {
+    return view('product');
 });
-Route::get('/signups', function () {
-    return view('signups');
+Route::get('/editproduct', function () {
+    return view('editproduct');
+});
+Route::get('/insertproduct2', function () {
+    return view('insertproduct2');
+});
+Route::get('/navbar', function () {
+    return view('navbar');
+});
+Route::get('/transaksi', function () {
+    return view('tagihan_cicilan');
 });
 
 
+
+Route::get('/insert_product', function () {
+    return view('insertproduct');
+});
+
+Route::get('/insert_product', function () {
+    return view('insertproduct');
+});
+
+Route::get('/stockopname', function () {
+    return view('stockopname');
+});
