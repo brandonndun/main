@@ -17,8 +17,8 @@ Route::get('/send_product', function () {
     return view('send_product');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/', function () {
+    return view('warehouse');
 });
 Route::get('/reduce_product', function () {
     return view('reduce_product');

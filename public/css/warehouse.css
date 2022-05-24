@@ -1,0 +1,48 @@
+   /* form warehouse */
+   .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card{
+    width: 100%;
+    /* background-color: #b8926a; */
+    background-color: #57B846;
+    padding: 16px;
+    border-radius: 14px;
+}
+
+
+.card-action{
+    position: absolute;
+    bottom: 70px;
+    right: 170px;
+    padding: 20px;
+    
+}
+.images1{
+width: 300px;
+display: inline-block;
+vertical-align: top;
+position: relative;
+}
+.subheader{
+    font-size: 35px;
+    width: auto;
+    display:inline-block;
+    color: #ffffff;
+    margin-left:300px;
+}
+.text{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 80px;
+    margin-left: -200px;
+}
+.text2{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-left: -200px;
+}
