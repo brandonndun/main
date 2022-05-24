@@ -23,7 +23,7 @@
 
         <div class="youtube_page ">
 
-            <h1 style="text-align:center; padding-top:20px ; padding-bottom:20px;">Welcome to our page</h1>
+            <h1 style="text-align:center; padding-top:20px ; padding-bottom:20px;">Welcome to Durian Asun Storage</h1>
 
 
             <div class="embed-responsive embed-responsive-16by9">
@@ -38,16 +38,16 @@
 
             <div class="card-deck">
                 <div class="card">
-                    <img class="card-img-top" src="foto/palu.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/durianpetruk.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Durian Palu</h5>
+                        <h5 class="card-title">Durian Petruk</h5>
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="foto/medan.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/durianmedan.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Durian medan</h5>
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional
@@ -56,11 +56,12 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img class="card-img-top" src="foto/pancake.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/durianmusang.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Pancake Durian</h5>
-                        <p class="card-text" halo.</p> <p class="card-text"><small class="text-muted">Last updated 3
-                                mins ago</small></p>
+                        <h5 class="card-title">Durian Musang</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
@@ -153,7 +154,7 @@
       
 
         
-        <div class="footer-copyright text-center py-3">Durian Aroi Surabaya
+        <div class="footer-copyright text-center py-3">Durian Asun Surabaya
 
         </div>
         
