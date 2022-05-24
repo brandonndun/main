@@ -20,7 +20,6 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-
 Route::get('/warehouse', function () {
     return view('warehouse');
 
@@ -64,4 +63,7 @@ Route::get('/insert_product', function () {
 
 Route::get('/stockopname', function () {
     return view('stockopname');
+});
+Route::get('/home', function () {
+    return view('home');
 });
