@@ -1,6 +1,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +19,7 @@
 
 <body>
 
-    <div class="header" style="position:fixed;  width: 100%; top: 0;" >
+    <div class="header" style="position:absolute;  width: 100%; top:0;">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color : #D0F2A4">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" style="z-index: 2">
@@ -42,10 +43,13 @@
                         <li class="nav-item">
                             <a class="nav-link active" style="margin : 0 12px" href="#">Stock Opname</a>
                         </li>
-                        <a class="nav-link active" style="margin : 0 12px" aria-current="page"
+                        <a class="nav-link active" style="margin : 0 12px" aria-current="page"  
                             href="transaksi">Transaksi</a>
                         </li>
-                        
+
+                        <a class="navbar-brand position-absolute" style=" right:40px" href="#">
+                        <i class="material-icons" style="font-size:36px">power_settings_new</i>
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -53,7 +57,7 @@
     </div>
 
 
-    <h1 style="font-family:quicksand; text-align: center; margin-top: 100px;">Stock Opname</h1>
+    <h1 style="font-family:quicksand; text-align: center; margin-top: 100px; padding-bottom: 20px;">Stock Opname</h1>
 
     <div class="container mt-3">
         <table class="table table-bordered">
