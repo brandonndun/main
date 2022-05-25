@@ -43,9 +43,6 @@ Route::get('/product', function () {
 Route::get('/editproduct', function () {
     return view('editproduct');
 });
-Route::get('/insertproduct2', function () {
-    return view('insertproduct2');
-});
 Route::get('/navbar', function () {
     return view('navbar');
 });
@@ -54,7 +51,7 @@ Route::get('/transaksi', function () {
     
 });
 Route::get('/insertproduct', function () {
-    return view('insertproduct');
+    return view('insertproduct2');
 });
 Route::get('/stockopname', function () {
     return view('stockopname');
@@ -62,4 +59,6 @@ Route::get('/stockopname', function () {
 Route::get('/home', function () {
     return view('home');
 });
-// Route::post('/home');
+Route::get('/addproduct', function () {
+    return view('addproduct');
+});
