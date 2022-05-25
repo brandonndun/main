@@ -53,14 +53,9 @@ Route::get('/transaksi', function () {
     return view('tagihan_cicilan');
     
 });
-Route::get('/insert_product', function () {
+Route::get('/insertproduct', function () {
     return view('insertproduct');
 });
-
-Route::get('/insert_product', function () {
-    return view('insertproduct');
-});
-
 Route::get('/stockopname', function () {
     return view('stockopname');
 });
