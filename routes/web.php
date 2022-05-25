@@ -26,7 +26,10 @@ Route::get('/reduce_product', function () {
 Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
 });
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home');
+});
+Route::get('/navbar', function () {
+    return view('navbar');
 });
 
