@@ -13,6 +13,7 @@
 </head>
 <body style="overflow: hidden">
 @include('navbar')
+<h1 class="text-center mt-5">Reduce Product</h1>
 <div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
 @include('footer')
 </div>
