@@ -28,10 +28,10 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-1" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/bali.jpeg" alt="Card image cap" style="width: 280px;">
+                        <img class="card-img-top" src="img/musang.jpeg" alt="Card image cap" style="width: 280px;">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
-                        <h5 class="card-title">Durian Bali</h5>
+                        <h5 class="card-title">Durian Musang</h5>
                         <div class="row d-flex justify-content-center">
                             <div class="col-6 d-flex justify-content-center">
                                 <a href="/editproduct" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
