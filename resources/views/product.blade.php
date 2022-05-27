@@ -63,7 +63,7 @@
                         <h5 class="card-title">Ice Cream Durian</h5>
                         <div class="row d-flex justify-content-center">
                             <div class="col-6 d-flex justify-content-center">
-                                <a href="#" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
+                                <a href="/editproduct" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
                                 <a href="#" class="btn mr-5" style="background-color: #D0F2A4; color:black;">Delete</a>
@@ -71,13 +71,13 @@
                         </div>
                         <div class="row d-flex justify-content-around mt-3">
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
+                                <a href="/addproduct" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
+                                <a href="reduce_product" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
+                                <a href="send_product" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                         <h5 class="card-title">Durian Medan</h5>
                         <div class="row d-flex justify-content-center">
                             <div class="col-6 d-flex justify-content-center">
-                                <a href="#" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
+                                <a href="/editproduct" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
                                 <a href="#" class="btn mr-5" style="background-color: #D0F2A4; color:black;">Delete</a>
@@ -100,13 +100,13 @@
                         </div>
                         <div class="row d-flex justify-content-around mt-3">
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
+                                <a href="/addproduct" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
+                                <a href="/reduce_product" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
+                                <a href="/send_product" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                         <h5 class="card-title">Durian Palu</h5>
                         <div class="row d-flex justify-content-center">
                             <div class="col-6 d-flex justify-content-center">
-                                <a href="#" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
+                                <a href="/editproduct" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
                                 <a href="#" class="btn mr-5" style="background-color: #D0F2A4; color:black;">Delete</a>
@@ -137,13 +137,13 @@
                         </div>
                         <div class="row d-flex justify-content-around mt-3">
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
+                                <a href="addproduct" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
+                                <a href="/reduce_product" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
+                                <a href="/send_product" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
                         <h5 class="card-title">Pancake Durian</h5>
                         <div class="row d-flex justify-content-center">
                             <div class="col-6 d-flex justify-content-center">
-                                <a href="#" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
+                                <a href="/editproduct" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
                                 <a href="#" class="btn mr-5" style="background-color: #D0F2A4; color:black;">Delete</a>
@@ -166,13 +166,13 @@
                         </div>
                         <div class="row d-flex justify-content-around mt-3">
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
+                                <a href="addproduct" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
+                                <a href="/reduce_product" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
+                                <a href="/send_product" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                         <h5 class="card-title">Pancake Durian isi 8</h5>
                         <div class="row d-flex justify-content-center">
                             <div class="col-6 d-flex justify-content-center">
-                                <a href="#" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
+                                <a href="/editproduct" class="btn ml-5" style="background-color: #D0F2A4; color:black;">Edit</a>
                             </div>
                             <div class="col-6 d-flex justify-content-center">
                                 <a href="#" class="btn mr-5" style="background-color: #D0F2A4; color:black;">Delete</a>
@@ -195,13 +195,13 @@
                         </div>
                         <div class="row d-flex justify-content-around mt-3">
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
+                                <a href="/addproduct" class="btn" style="background-color: #D0F2A4; color:black;">Add</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
+                                <a href="/reduce_product" class="btn" style="background-color: #D0F2A4; color:black;">Reduce</a>
                             </div>
                             <div class="col-6 col-md-4 d-flex justify-content-center">
-                                <a href="#" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
+                                <a href="/send_product" class="btn" style="background-color: #D0F2A4; color:black;">Send</a>
                             </div>
                         </div>
                     </div>

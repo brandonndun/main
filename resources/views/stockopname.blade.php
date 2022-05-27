@@ -34,126 +34,19 @@
                     <th scope="col" style="text-align:center;">Jumlah</th>
                 </tr>
             </thead>
-            <tbody class="table table-success table-striped">
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
-
-                <tr>
-                    <td style="text-align:center;">20-04-2019</td>
-                    <td style="text-align:center;">ID0023</td>
-                    <td style="text-align:center;">Jakarta</td>
-                    <td style="text-align:center;">Surabaya</td>
-                    <td style="text-align:center;">250</td>
-                </tr>
+            <tbody class="table table-success table-striped" style="text-align: center;">
+                <?php
+            for ($x=0;$x<sizeof($tabel);$x++){
+                      echo"
+                      <tr>
+                        <td>{$tabel[$x]->Tanggal}</td>
+                        <td>{$tabel[$x]->ID_PRODUK}</td>
+                        <td>{$tabel[$x]->WAREHOUSE_ASAL}</td>
+                        <td>{$tabel[$x]->WAREHOUSE_TUJUAN}</td>
+                        <td>{$tabel[$x]->JUMLAH}</td>
+                      </tr>";
+            }
+                    ?>
             </tbody>
         </table>
     </div>
