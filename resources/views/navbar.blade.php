@@ -21,15 +21,15 @@
         <div class="collapse navbar-collapse justify-content-center position-absolute" id="navbarNavDropdown" style="width: 100%; z-index: 1">
           <ul class="navbar-nav navbarmenu" style="font-family : quicksand; font-size : 17px; font-weight : 600">
             <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">Warehouse</a>
+              <a class="nav-link active" aria-current="page" href="/warehouse">Warehouse</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="margin : 0 12px" href="#">Product</a>
+              <a class="nav-link active" style="margin : 0 12px" href="product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" style="margin : 0 12px" href="#">Stock Opname</a>
+              <a class="nav-link active" style="margin : 0 12px" href="/stockopname">Stock Opname</a>
             </li>
-            <a class="nav-link active" style="margin : 0 12px" aria-current="page" href="transaksi">Transaksi</a>
+            <a class="nav-link active" style="margin : 0 12px" aria-current="page" href="/transaksi">Transaksi</a>
             </li>
             <a class="navbar-brand position-absolute" style=" right:90px" href="#">
               <img src="img/arrow-left-circle.svg" style="width : 35px" alt="">

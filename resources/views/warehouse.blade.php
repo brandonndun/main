@@ -10,10 +10,11 @@
         <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     </head>
     <body>
+    @include("navbar")
 
         <div class="small-container cart page">
             <div class="container">
-               <div class="card" style="background-color: #57B846">
+               <div class="card" style="background-color: #57B846;margin-top: 43px">
                     <div class="cart-info">
                         <div>
                             <img src="img/solo.png" class="images1">
