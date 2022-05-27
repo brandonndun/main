@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="image-gallery.png" type="image/x-icon">
 </head>
 <body>
+@include("navbar")
     <div class="container">
         <h1 class="text-center mt-5">Add Product</h1>
         <div class="row" style="margin-top: -120px;">
