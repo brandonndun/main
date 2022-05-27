@@ -50,7 +50,7 @@ Route::get('/transaksi', function () {
     return view('tagihan_cicilan');
     
 });
-Route::get('/insertproduct', function () {
+Route::get('/insertproduct2', function () {
     return view('insertproduct2');
 });
 Route::get('/stockopname', function () {
