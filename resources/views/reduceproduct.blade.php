@@ -15,7 +15,7 @@
 @include('navbar')
 <h1 class="text-center mt-5">Reduce Product</h1>
 <div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
-@include('footer')
+<!-- @include('footer') -->
 </div>
 
   <div class="gambar" style="display:flex">
@@ -42,7 +42,7 @@
     </div>
     </div>
 
-    <div class="button-cancel" style= "display: flex; margin-top: 126px; margin-left: 141px">
+    <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
     <button type="button-cancel" style="background-color: #D0F2A4; color:black; border: solid; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -34px; margin-left: 13px; border-radius: 19px" class="btn btn-secon btn-lg" enable>Cancel</button>
     </div>
 
