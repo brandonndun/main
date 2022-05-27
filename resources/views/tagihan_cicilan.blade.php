@@ -11,7 +11,7 @@
     <title>Transaksi Tagihan Cicilan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
-  <body style="overflow-x: hidden">
+  <body style="overflow-x: hidden; margin-left:-65px;">
   @include("navbar")
     <div class="card-body" style="text-align: center; font-family : quicksand; margin-top: 29px">
       <h2 class="card-title">Transaksi Tagihan Cicilan</h2>

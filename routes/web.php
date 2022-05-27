@@ -56,12 +56,13 @@ Route::get('/transaksi', function () {
 Route::get('/insertproduct', function () {
     return view('insertproduct');
 });
-Route::get('/stockopname', function () {
-    return view('stockopname');
-});
+// Route::get('/stockopname', function () {
+//     return view('stockopname');
+// });
 Route::get('/home', function () {
     return view('home');
 });
 Route::get('/addproduct', function () {
     return view('addproduct');
 });
+Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
