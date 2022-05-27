@@ -22,7 +22,10 @@ Route::get('/welcome', function () {
 
 Route::get('/warehouse', function () {
     return view('warehouse');
+});
 
+Route::get('/', function () {
+    return view('login');
 });
 Route::get('/reduceproduct', function () {
     return view('reduceproduct');
