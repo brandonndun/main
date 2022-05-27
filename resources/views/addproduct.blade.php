@@ -39,10 +39,11 @@
                     </div>
                 </div>
 
-                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 106px; position: absolute; align-items: right; right: 19%;">Cancel</button>
-                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 106px; position: absolute; align-items: right; right: 35%;">Add</button>
+                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 106px; position: absolute; align-items: right; right: 20%;">Cancel</button>
+                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 106px; position: absolute; align-items: right; right: 50%;">Add</button>
             </div>
         </div>
     </div>
+    @include('footer')
 </body>
 </html>
