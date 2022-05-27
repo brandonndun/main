@@ -10,6 +10,7 @@
     <title>Insert Product - Durian Asun</title>
 </head>
 <body>
+@include("navbar")
     <div class="container">
         <h1 class="text-center mt-5">Insert Product</h1>
         <div class="row" style="margin-top: -120px;">

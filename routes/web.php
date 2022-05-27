@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/send_product', function () {
-    return view('send_product');
+Route::get('/sendproduct', function () {
+    return view('sendproduct');
 });
 Route::get('/welcome', function () {
     return view('welcome');
@@ -22,10 +22,13 @@ Route::get('/welcome', function () {
 
 Route::get('/warehouse', function () {
     return view('warehouse');
-
 });
-Route::get('/reduce_product', function () {
-    return view('reduce_product');
+
+Route::get('/', function () {
+    return view('login');
+});
+Route::get('/reduceproduct', function () {
+    return view('reduceproduct');
 });
 Route::get('/tagihan_cicilan', function () {
     return view('tagihan_cicilan');
@@ -50,8 +53,8 @@ Route::get('/transaksi', function () {
     return view('tagihan_cicilan');
     
 });
-Route::get('/insertproduct2', function () {
-    return view('insertproduct2');
+Route::get('/insertproduct', function () {
+    return view('insertproduct');
 });
 // Route::get('/stockopname', function () {
 //     return view('stockopname');
