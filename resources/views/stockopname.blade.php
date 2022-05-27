@@ -21,7 +21,7 @@
     @include("navbar")
 
 
-    <h1 style="font-family:quicksand; text-align: center; margin-top: 100px; padding-bottom: 20px;">Stock Opname</h1>
+    <h1 style="font-family:quicksand; text-align: center; margin-top: 21px; padding-bottom: 20px;">Stock Opname</h1>
 
     <div class="container mt-3">
         <table class="table table-bordered">

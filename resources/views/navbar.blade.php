@@ -8,11 +8,12 @@
     <link rel="" href="send.css"> 
     <title>Navbar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</svg>
 </head>
   <body style="overflow-x: hidden">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color : #D0F2A4">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="z-index: 2">
+        <a class="navbar-brand" href="home" style="z-index: 2">
           <img src="img/Asun-Logo-Header-250.webp" style="width : 100px; margin-left:40px;" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,12 +32,6 @@
             </li>
             <a class="nav-link active" style="margin : 0 12px" aria-current="page" href="/transaksi">Transaksi</a>
             </li>
-            <a class="navbar-brand position-absolute" style=" right:90px" href="#">
-              <img src="img/arrow-left-circle.svg" style="width : 35px" alt="">
-            </a>
-            <a class="navbar-brand position-absolute" style=" right:40px" href="#">
-              <img src="img/arrow-right-circle.svg" style="width : 35px" alt="">
-            </a>
           </ul>
         </div>
       </div>
