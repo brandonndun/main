@@ -45,5 +45,6 @@
       <h4 class="nominal" style="margin-left: 540px; margin-top: -36px; font-family : quicksand">Rp 500.000</h4>
       <h4 class="metode" style="margin-left: 804px; margin-top: -36px; font-family : quicksand">Tunai</h4>
     </div>
+    @include('footer')
   </body>
 </html>

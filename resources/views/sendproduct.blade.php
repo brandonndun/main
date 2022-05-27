@@ -53,5 +53,6 @@
             <button type="button-send" style="background-color: #D0F2A4; color: black; border: solid; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-top: 15px; border-radius: 26px" class="btn btn-secondary btn-lg" enable>Send</button>
           </div>
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          @include('footer')
   </body>
 </html>

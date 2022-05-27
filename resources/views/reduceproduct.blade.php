@@ -12,39 +12,10 @@
     <title>Reduce Product</title>
 </head>
 <body style="overflow: hidden">
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color : #D0F2A4">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="z-index: 2">
-          <img src="img/Asun-Logo-Header-250.webp" style="width : 100px; margin-left:40px;" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center position-absolute" id="navbarNavDropdown" style="width: 100%; z-index: 1">
-          <ul class="navbar-nav navbarmenu" style="font-family : quicksand; font-size : 17px; font-weight : 600">
-            <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">Warehouse</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" style = "margin : 0 12px"href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active"style = "margin : 0 12px" href="#">Stock Opname</a>
-            </li>
-            <a class="nav-link active" style = "margin : 0 12px"aria-current="page" href="#">Transaksi</a>
-            </li>
-            <a class="navbar-brand position-absolute" style=" right:90px" href="#">
-              <img src="img/arrow-left-circle.svg" style="width : 35px" alt="">
-            </a>
-            <a class="navbar-brand position-absolute" style=" right:40px" href="#">
-              <img src="img/arrow-right-circle.svg" style="width : 35px" alt="">
-            </a>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
-  </div>
+@include('navbar')
+<div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
+@include('footer')
+</div>
 
   <div class="gambar" style="display:flex">
     <div class = "image">
@@ -71,12 +42,11 @@
     </div>
 
     <div class="button-cancel" style= "display: flex; margin-top: 126px; margin-left: 141px">
-    <button type="button-cancel" style="background-color: #D0F2A4; color:black; border: solid; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -34px; margin-left: 13px; border-radius: 19px" class="btn btn-secondary btn-lg" enable>Cancel</button>
+    <button type="button-cancel" style="background-color: #D0F2A4; color:black; border: solid; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -34px; margin-left: 13px; border-radius: 19px" class="btn btn-secon btn-lg" enable>Cancel</button>
     </div>
 
-    <div class="button-reduce" style= "display: flex; margin-top: -51px; margin-left: 289px;">
-    <button type="button-reduce" style="background-color: #D0F2A4; color: black; border: solid; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-top: 15px; border-radius: 19px" class="btn btn-secondary btn-lg" enable>Reduce</button >
+    <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
+    <button type="button-reduce" style="background-color: #D0F2A4; color: black; border: solid; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-top: 15px; border-radius: 19px" class="btn btn-secon btn-lg" enable>Reduce</button >
     </div>  
-  </body>
 </body>
 </html>
