@@ -6,7 +6,7 @@
  <script src="https://kit.fontawesome.com/f43daa6159.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="logodurian">
+    <div class="logodurian" style="text-align:center;">
         <img src="img/Asun-Logo-Header-250.webp">
     </div>
     <div class="wrapper">
