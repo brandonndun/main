@@ -28,7 +28,7 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-1" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/musang.jpeg" alt="Card image cap" style="width: 280px;">
+                        <img class="card-img-top" src="img/musang.jpeg" alt="Card image cap" style="width: 380px;">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
                         <h5 class="card-title">Durian Musang</h5>
@@ -62,7 +62,7 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-4" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/icecream.jpeg" alt="Card image cap" style="width: 280px;;">
+                        <img class="card-img-top" src="img/icecream.jpeg" alt="Card image cap" style="width: 380px;;">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
                         <h5 class="card-title">Ice Cream Durian</h5>
@@ -95,7 +95,7 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-5" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/medan.jpeg" alt="Card image cap" style="width: 280px;">
+                        <img class="card-img-top" src="img/medan.jpeg" alt="Card image cap" style="width: 380px;">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
                         <h5 class="card-title">Durian Medan</h5>
@@ -130,7 +130,7 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-1" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/palu.jpeg" alt="Card image cap" style="width: 280px; ">
+                        <img class="card-img-top" src="img/palu.jpeg" alt="Card image cap" style="width: 380px; ">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
                         <h5 class="card-title">Durian Palu</h5>
@@ -163,7 +163,7 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-4" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/pancake1.jpeg" alt="Card image cap" style="width: 280px;">
+                        <img class="card-img-top" src="img/pancake1.jpeg" alt="Card image cap" style="width: 380px;">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
                         <h5 class="card-title">Pancake Durian</h5>
@@ -196,7 +196,7 @@
             <div class="col-md-4">
                 <div class="card mt-5 mx-5" style="width: 24rem; border-radius: 10px; margin-top: 25px;">
                     <div class="d-flex justify-content-around">
-                        <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap" style="width: 280px;">
+                        <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap" style="width: 380px;">
                     </div>
                     <div class="card-body" style="background-color: #57B846;">
                         <h5 class="card-title">Pancake Durian isi 8</h5>
