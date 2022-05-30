@@ -19,7 +19,7 @@
     <title>Product - Durian Asun</title>
 </head>
 
-<body>
+<body style="margin-bottom: 94px; overflow-x: hidden">
 @include("navbar")
     <h1 class="text-center mt-5">Product</h1>
 
@@ -207,6 +207,6 @@
                     </div>
                 </div>
         </div>
-        @include('footer')
 </body>
+
 </html>
