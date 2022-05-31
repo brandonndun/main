@@ -4,6 +4,7 @@
  <link rel="stylesheet" type="text/css" href="css/style.css"/>
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  <script src="https://kit.fontawesome.com/f43daa6159.js" crossorigin="anonymous"></script>
+ <link rel="shortcut icon" href="img/Asun-Logo-Header-250 copy.webp" type="image/x-icon">
 </head>
 <body>
     <div class="logodurian" style="text-align:center; margin-top:  35px;" >
