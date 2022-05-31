@@ -9,7 +9,7 @@
     <title>Durian Asun</title>
 </head>
 <body>
-<footer class="page-footer font-large special-color-dark pt-4" style="margin-top : 180px;">
+<footer class="page-footer font-large special-color-dark pt-4">
 
        
 <div class="container">

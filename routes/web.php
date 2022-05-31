@@ -66,3 +66,7 @@ Route::get('/addproduct', function () {
     return view('addproduct');
 });
 Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
+
+Route::get('/product2', function () {
+    return view('product2');
+});

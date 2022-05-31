@@ -6,10 +6,11 @@
  <script src="https://kit.fontawesome.com/f43daa6159.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="logodurian" style="text-align:center;">
-        <img src="img/Asun-Logo-Header-250.webp">
+    <div class="logodurian" style="text-align:center; margin-top:  35px;" >
+        <img src="img/Asun-Logo-Header-250.webp"  style="width: 15%;"  >
     </div>
-    <div class="wrapper">
+    
+    <div class="wrapper" style="border-style: ridge; box-shadow: 10px 10px 5px grey; margin-top:20px" >
         <div class="wrapper-header">
             <!-- <div class="icon"><i class="fa fa-sign-in fa-2x"></i></div> -->
             <h2 class="title">Sign In</h2>
@@ -21,7 +22,7 @@
                     <div class="icons">
                         <i class="fa-solid fa-circle-user"></i>
                     </div>
-                        <input type="text" placeholder="Username">
+                        <input type="text" placeholder="Username" >
                 </div>
                 <div class="group">
                     <label for="password">Password</label>
@@ -34,9 +35,6 @@
                 <div class="group">
                     <input type="submit" value="Sign In">
             <!-- <input type="reset" value="Reset"> -->
-                    <h4>Don't have an account?</h4>
-                    <h5><a href ="/signups">SIGN UP NOW</h5>
-                </div>
             </form>
         </div>
     </div>

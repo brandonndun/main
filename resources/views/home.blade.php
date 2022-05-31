@@ -19,22 +19,21 @@
 
 <body>
 @include('navbar')
-    <div class="home_body">
+    <div class="home_body" style="text-align:center;">
+        <h1 style="text-align:center; padding-top:20px ; padding-bottom:20px;">Welcome to Durian Asun Storage</h1>
+        
+        <div class="youtube_page" >
+        <div style="width:90%; margin-left:5%;border-style:solid;">
 
-        <div class="youtube_page ">
-
-            <h1 style="text-align:center; padding-top:20px ; padding-bottom:20px;">Welcome to Durian Asun Storage</h1>
-
-
-            <div class="embed-responsive embed-responsive-16by9">
+            <div class="embed-responsive embed-responsive-16by9" >
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qHG825iQWj4"></iframe>
             </div>
-            </iframe>
+        </div>
         </div>
 
         <h1 style="text-align:center;">OUR BEST PRODUCTS</h1>
 
-        <div class="katalog-home">
+        <div class="katalog-home" style="width:90%;margin-left:5%;">
 
             <div class="card-deck">
                 <div class="card">

@@ -19,10 +19,13 @@
     <title>Product - Durian Asun</title>
 </head>
 
-<body style="margin-bottom: 94px; overflow-x: hidden"> @include("navbar") <h1 class="text-center mt-5">Product</h1>
-  
-<a class="btn btn-primary" href="insertproduct" role="button"
-        style= "background-color: #57B846; border: black; margin-left:90%">Insert</a>
+<body>
+    @include("navbar")
+    <h1 class="text-center mt-5">Product</h1>
+
+    <a class="btn btn-primary" href="insertproduct" role="button"
+        style="background-color: #57B846; border: black; margin-left:90%">Insert</a>
+        
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -227,6 +230,8 @@
                 </div>
             </div>
 
+
+            @include('Footer')
 </body>
 
 </html>
