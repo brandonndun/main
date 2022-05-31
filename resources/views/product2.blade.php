@@ -29,7 +29,7 @@
 
     <h1 style="text-align:center;margin-top:25px;"> Product</h1>
 
-    <button type="button" class="btn" style="margin-left:88% ; background-color: #57B846; width:6%">Insert</button>
+    <button type="button" class="btn" style="margin-left: 78% ; background-color: #57B846; width:6%">Insert</button>
 
     <div class="row" style=" width:70% ; text-align:center ; margin-left:15% ;  padding-bottom: 50px;">
 
@@ -181,7 +181,7 @@
         <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
 
 
-        <div class="tombol">
+        <div class="tombol1">
 
             <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
 
@@ -192,7 +192,7 @@
 
                 <div class="col">
                     <button type="button" class="btn"
-                        style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                        style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Delete</button>
                 </div>
             </div>
 
@@ -205,7 +205,7 @@
 
                 <div class="col">
                     <button type="button" class="btn"
-                        style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                        style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Reduce</button>
             </div>
 
             <div class=" col">
@@ -227,7 +227,7 @@
         <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
 
 
-        <div class="tombol">
+        <div class="tombol2">
 
             <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
 
@@ -238,7 +238,7 @@
 
                 <div class="col">
                     <button type="button" class="btn"
-                        style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                        style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Delete</button>
                 </div>
             </div>
 
@@ -251,7 +251,7 @@
 
                 <div class="col">
                     <button type="button" class="btn"
-                        style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                        style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Reduce</button>
             </div>
 
             <div class=" col">
@@ -273,7 +273,7 @@
         <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
 
 
-        <div class="tombol">
+        <div class="tombol3">
 
             <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
 
@@ -284,7 +284,7 @@
 
                 <div class="col">
                     <button type="button" class="btn"
-                        style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                        style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Delete</button>
                 </div>
             </div>
 
@@ -297,7 +297,7 @@
 
                 <div class="col">
                     <button type="button" class="btn"
-                        style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                        style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Reduce</button>
             </div>
 
             <div class=" col">
