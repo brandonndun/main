@@ -13,7 +13,7 @@
     <body>
     @include("navbar")
 
-        <div class="small-container cart page">
+        <div class="small-container cart page" style="margin-bottom: 57px">
             <div class="container">
                <div class="card" style="background-color: #57B846;margin-top: 43px; border-radius: 27px">
                     <div class="cart-info">
@@ -68,7 +68,7 @@
                 <br>
                 <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
-                        <div style="background-color: green; border-radius: 29px">
+                        <div style="background-color: green; border-radius: 29px;">
                             <img src="img/surabaya.png" class="images1">
                             <div class="subheader">
                                 <label style="font-family: quicksand">Warehouse D</label>
