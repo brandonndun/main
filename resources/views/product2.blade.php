@@ -27,9 +27,10 @@
 
     @include('navbar')
 
-    <h1 style="text-align:center;margin-top:25px;"> Product</h1>
+    <h1 style="text-align:center;margin-top:25px; font-family: quicksand"> Product</h1>
     <div style="padding-bottom:30px">
-        <button type="button" class="btn" style="margin-left: 82% ; background-color: silver; width:6%">Insert</button>
+    <a class="btn btn-primary" href="insertproduct" role="button"
+    style="margin-left: 82% ;background-color: #D0F2A4; width:6%; color:black; font-family: quicksand">Insert</a>
     </div>
 
     <div>
@@ -39,7 +40,7 @@
                 <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
                     <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
                         style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                    <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
     
     
                     <div class="tombol">
@@ -47,31 +48,79 @@
                         <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
                             </div>
                         </div>
     
     
                         <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
                             </div>
     
                             <div class=" col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+    
+                </div>
+            </div>
+            
+    
+            <div class='col'>
+            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+                    <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
+                        style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
+    
+    
+                    <div class="tombol">
+    
+                        <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
+                        
+                        <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
+                            </div>
+                        </div>
+    
+    
+                        <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
+                            
+                        <div class="col">
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
+                            </div>
+    
+                            <div class=" col">
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
                             </div>
                         </div>
     
@@ -82,88 +131,42 @@
             </div>
     
             <div class='col'>
-                <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
                     <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
                         style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                    <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
     
     
                     <div class="tombol">
     
                         <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
     
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                        <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
                             </div>
                         </div>
     
     
                         <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
                             </div>
     
                             <div class=" col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
-                            </div>
-                        </div>
-    
-                    </div>
-    
-    
-                </div>
-            </div>
-    
-            <div class='col'>
-                <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
-                    <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
-                        style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                    <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
-    
-    
-                    <div class="tombol">
-    
-                        <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
-    
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
-                            </div>
-    
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
-                            </div>
-                        </div>
-    
-    
-                        <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
-                            </div>
-    
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
-                            </div>
-    
-                            <div class=" col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
                             </div>
                         </div>
     
@@ -179,42 +182,42 @@
         <div class="row" style=" width:80% ; text-align:center ; margin-left:10% ;  padding-bottom: 50px;">
     
             <div class='col'>
-                <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
                     <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
                         style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                    <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
     
     
                     <div class="tombol">
     
                         <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
     
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                        <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
                             </div>
                         </div>
     
     
                         <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
                             </div>
     
                             <div class=" col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
                             </div>
                         </div>
     
@@ -225,43 +228,43 @@
             </div>
     
             <div class='col'>
-                <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
                     <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
                         style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                    <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
     
     
                     <div class="tombol">
     
                         <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
     
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                        <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
                             </div>
                         </div>
     
     
                         <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
                             </div>
     
                             <div class=" col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
-                            </div>
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
+                            </div>       
                         </div>
     
                     </div>
@@ -271,42 +274,42 @@
             </div>
     
             <div class='col'>
-                <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
                     <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
                         style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                    <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
     
     
                     <div class="tombol">
     
                         <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
     
-                            <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                        <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Delete</button>
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
                             </div>
                         </div>
     
     
                         <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
                             </div>
     
                             <div class="col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Reduce</button>
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
                             </div>
     
                             <div class=" col">
-                                <button type="button" class="btn"
-                                    style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
                             </div>
                         </div>
     
@@ -321,43 +324,43 @@
     <div class="row" style=" width:80% ; text-align:center ; margin-left:10% ;  padding-bottom: 50px;">
 
         <div class='col'>
-            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
-                <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
-                    style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+        <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+                    <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
+                        style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
 
 
                 <div class="tombol1">
 
                     <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
 
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                    <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
+                            </div>
                         </div>
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Delete</button>
-                        </div>
-                    </div>
-
-
-                    <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
-                        </div>
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Reduce</button>
-                        </div>
-
-                        <div class=" col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
-                        </div>
+    
+    
+                        <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
+                            <div class="col">
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
+                            </div>
+    
+                            <div class=" col">
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
+                            </div>
                     </div>
 
                 </div>
@@ -367,43 +370,43 @@
         </div>
 
         <div class='col'>
-            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
-                <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
-                    style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+        <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+                    <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
+                        style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
 
 
                 <div class="tombol2">
 
                     <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                    
+                    <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
+                            </div>
                         </div>
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Delete</button>
-                        </div>
-                    </div>
-
-
-                    <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
-                        </div>
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Reduce</button>
-                        </div>
-
-                        <div class=" col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
-                        </div>
+    
+    
+                        <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
+                            <div class="col">
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
+                            </div>
+    
+                            <div class=" col">
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
+                            </div>
                     </div>
 
                 </div>
@@ -413,43 +416,43 @@
         </div>
 
         <div class='col'>
-            <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
-                <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
-                    style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
-                <h2 style="text-align:center ; padding-bottom:5px"> Nama produk</h2>
+        <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0% ;">
+                    <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
+                        style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand"> Nama produk</h2>
 
 
                 <div class="tombol3">
 
                     <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
 
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Edit</button>
+                    <div class="col">
+                            <a class="btn btn-primary" href="editproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Edit</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="#" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Delete</a>
+                            </div>
                         </div>
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Delete</button>
-                        </div>
-                    </div>
-
-
-                    <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Add</button>
-                        </div>
-
-                        <div class="col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:88% ; box-shadow: 3px 3px 2px grey">Reduce</button>
-                        </div>
-
-                        <div class=" col">
-                            <button type="button" class="btn"
-                                style="background-color: silver; width:80% ; box-shadow: 3px 3px 2px grey">Send</button>
-                        </div>
+    
+    
+                        <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
+                            <div class="col">
+                            <a class="btn btn-primary" href="addproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Add</a>
+                            </div>
+    
+                            <div class="col">
+                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Reduce</a>
+                            </div>
+    
+                            <div class=" col">
+                            <a class="btn btn-primary" href="sendproduct" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black;">Send</a>
+                            </div>
                     </div>
 
                 </div>
