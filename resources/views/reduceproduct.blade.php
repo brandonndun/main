@@ -20,34 +20,34 @@
 
   <div class="gambar" style="display:flex">
     <div class = "image">
-    <img src="img/icon-image-512.webp" style="width : 500px; margin-left: 200px;" class="img-fluid" alt="...">
+    <img src="img/icon-image-512.webp" style="width : 300px; margin-left: 200px;" class="img-fluid" alt="...">
     </div>
 
   <div class="inputbox" style="display:flex; flex-direction: column;">
     <div class="form-nama-produk">
-        <input type="nama produk" class="form-control" style="width: 444px; border: solid; margin-left: 20px; margin-top: 120px; background-color:#D0F2A4; font-family : quicksand; border-radius: 19px" id="nama_produk" placeholder="Nama Produk :">
+        <input type="nama produk" class="form-control" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="nama_produk" placeholder="Nama Produk :">
     </div>
 
   <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
-      <label for=""style="margin-top: 18px">Jumlah</label>
+      <label for=""style="margin-top: 30px; margin-left: 80px">Jumlah</label>
     <div class="jumlah">
-        <input type="jumlah" class="form-control" style="width: 326px;; border: solid; margin-left: 52px; margin-top: 20px; background-color:#D0F2A4; border-radius: 19px" id="jumlah">
+        <input type="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah">
     </div>
     </div>
 
   <div class="keterangan" style="align-items: center; display: flex; margin-left: 22px; font-family : quicksand ">
-      <label for=""style="margin-top: 18px">Keterangan</label>
+      <label for=""style="margin-top: 45px; margin-left: 100px">Keterangan</label>
     <div class="keterangan">
-        <textarea type ="text" class="form-control" style="width: 326px;; border: solid; margin-left: 40px; margin-top: 20px; background-color:#D0F2A4; height: 100px; border-radius: 19px" id="keterangan"></textarea>
+        <textarea type ="text" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan"></textarea>
     </div>
     </div>
 
     <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
-    <button type="button-cancel" style="background-color: #D0F2A4; color:black; border: solid; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -34px; margin-left: 13px; border-radius: 19px" class="btn btn-secon btn-lg" enable>Cancel</button>
+    <button type="button-cancel" style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -47px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Cancel</button>
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
-    <button type="button-reduce" style="background-color: #D0F2A4; color: black; border: solid; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-top: 15px; border-radius: 19px" class="btn btn-secon btn-lg" enable>Reduce</button >
+    <button type="button-reduce" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-left: 82px; height: 30px; margin-top: 15px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Reduce</button >
     </div>  
 </body>
 </html>

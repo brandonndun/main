@@ -28,33 +28,33 @@
                     <img src="img/image-gallery.png" alt="image-gallery.png"
                         style="width: 50%; display: block; margin-left: auto; margin-right: auto; margin-top: 150px;">
                     <button type="button" class="btn d-flex justify-content-center align-middle"
-                        style="background-color: #D0F2A4; border-radius: 19px; border: solid; align-items: center; position: absolute; left: 23%; margin-top: 20px;">Insert
+                        style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; align-items: center; position: absolute; left: 23%; margin-top: 20px;">Insert
                         Photo</button>
                 </div>
                 <div class="col" style="margin-top: 230px">
                     <div class="form-group row">
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="inputID"
-                                style="background-color: #D0F2A4; border-radius: 19px; border: solid;"
+                                style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;"
                                 placeholder="ID Produk">
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="inputNama"
-                                style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 10px;"
+                                style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
                                 placeholder="Nama Produk">
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="inputKet"
-                                style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 10px;"
+                                style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
                                 placeholder="Keterangan">
                         </div>
                     </div>
                     <button type="button" class="btn d-flex justify-content-center align-middle"
-                        style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 54px; position: absolute; align-items: right; right: 19%;">Insert</button>
+                        style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 54px; position: absolute; align-items: right; right: 19%;">Insert</button>
                 </div>
             </div>
         </div>

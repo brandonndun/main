@@ -23,24 +23,24 @@
             <div class="col" style="margin-top: 230px">
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputNama" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-bottom: 20px;" placeholder="Nama Produk">
+                        <input type="text" class="form-control" id="inputNama" style="background-color: #D0F2A4; width: 461px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-bottom: 20px;" placeholder="Nama Produk">
                     </div>
                 </div>
                 <div class="form-group row">
                     <p1>Supplier : </p1>
                     <div class="col-sm-10" style="margin-top: 5px;">
-                        <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 19px; border: solid; width: 350px; margin-left: 110px; margin-top: -39px; margin-bottom: 10px;" placeholder="">
+                        <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; width: 350px; margin-left: 110px; margin-top: -39px; margin-bottom: 10px;" placeholder="">
                     </div>
                 </div>
                 <div class="form-group row">
                     <p1>Jumlah : </p1>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 19px; border: solid; width: 350px; margin-left: 110px; margin-top: -39px;" placeholder="">
+                        <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; width: 350px; margin-left: 110px; margin-top: -39px;" placeholder="">
                     </div>
                 </div>
 
-                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 106px; position: absolute; align-items: right; right: 20%;">Cancel</button>
-                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 19px; border: solid; margin-top: 106px; position: absolute; align-items: right; right: 50%;">Add</button>
+                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 42px; position: absolute; align-items: right; right: 20%;">Cancel</button>
+                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 42px; margin-right: -81px; height: 37px; position: absolute; align-items: right; right: 50%;">Add</button>
             </div>
         </div>
     </div>
