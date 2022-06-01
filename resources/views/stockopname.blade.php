@@ -35,7 +35,7 @@
                     <th scope="col" style="text-align:center; font-family: quicksand">Jumlah</th>
                 </tr>
             </thead>
-            <tbody class="table table-success table-striped" style="text-align: center;">
+            <tbody class="table table-success table-striped" style="text-align: center; font-family: quicksand">
                 <?php
             for ($x=0;$x<sizeof($tabel);$x++){
                       echo"
