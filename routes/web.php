@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\product;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -43,9 +45,9 @@ Route::get('/signups', function () {
 Route::get('/product', function () {
     return view('product');
 });
-Route::get('/editproduct', function () {
-    return view('editproduct');
-});
+
+Route::get('/editproduct/{idproduct}','App\Http\Controllers\edit@editproduk');
+
 Route::get('/navbar', function () {
     return view('navbar');
 });
@@ -67,6 +69,5 @@ Route::get('/addproduct', function () {
 });
 Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
 
-Route::get('/product2', function () {
-    return view('product2');
-});
+Route::get('/product2', [product::class, 'product']);
+Route::post('/edit/{id}','App\Http\Controllers\edit@edit');
