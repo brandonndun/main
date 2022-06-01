@@ -15,68 +15,68 @@
 
         <div class="small-container cart page">
             <div class="container">
-               <div class="card" style="background-color: #57B846;margin-top: 43px">
+               <div class="card" style="background-color: #57B846;margin-top: 43px; border-radius: 27px">
                     <div class="cart-info">
-                        <div>
+                        <div style="background-color: green; border-radius: 29px">
                             <img src="img/solo.png" class="images1">
                             <div class="subheader">
-                                <label>Warehouse A</label>
+                                <label style="font-family: quicksand">Warehouse A</label>
                                 <div class="text">
-                                    <label>Asal Kota : Solo</label>
+                                    <label style="font-family: quicksand">Asal Kota : Solo</label>
                                 </div>
                                 <div class="text2">
-                                    <label>Admin : Vanya</label>
+                                    <label style="font-family: quicksand">Admin : Vanya</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
-                <div class="card" style="background-color: #57B846">
+                <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
-                        <div>
+                        <div style="background-color: green; border-radius: 29px">
                             <img src="img/bali.png" class="images1">
                             <div class="subheader">
-                                <label>Warehouse B</label>
+                                <label style="font-family: quicksand">Warehouse B</label>
                                 <div class="text">
-                                    <label>Asal Kota : Bali</label>
+                                    <label style="font-family: quicksand">Asal Kota : Bali</label>
                                 </div>
                                 <div class="text2">
-                                    <label>Admin : Brandon</label>
+                                    <label style="font-family: quicksand">Admin : Brandon</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
-                <div class="card" style="background-color: #57B846">
+                <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
-                        <div>
+                        <div style="background-color: green; border-radius: 29px">
                             <img src="img/jakarta.png" class="images1">
                             <div class="subheader">
-                                <label>Warehouse C</label>
+                                <label style="font-family: quicksand">Warehouse C</label>
                                 <div class="text">
-                                    <label>Asal Kota : Jakarta</label>
+                                    <label style="font-family: quicksand">Asal Kota : Jakarta</label>
                                 </div>
                                 <div class="text2">
-                                    <label>Admin : Vanes</label>
+                                    <label style="font-family: quicksand">Admin : Vanes</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
-                <div class="card" style="background-color: #57B846">
+                <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
-                        <div>
+                        <div style="background-color: green; border-radius: 29px">
                             <img src="img/surabaya.png" class="images1">
                             <div class="subheader">
-                                <label>Warehouse D</label>
+                                <label style="font-family: quicksand">Warehouse D</label>
                                 <div class="text">
-                                    <label>Asal Kota : Surabaya</label>
+                                    <label style="font-family: quicksand">Asal Kota : Surabaya</label>
                                 </div>
                                 <div class="text2">
-                                    <label>Admin : Jason</label>
+                                    <label style="font-family: quicksand">Admin : Jason</label>
                                 </div>
                             </div>
                         </div>
