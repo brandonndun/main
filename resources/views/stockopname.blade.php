@@ -28,11 +28,11 @@
         <table class="table table-bordered">
             <thead>
                 <tr style="background-color:#57B846;">
-                    <th scope="col" style="text-align:center;">Tanggal</th>
-                    <th scope="col" style="text-align:center;">ID Produk</th>
-                    <th scope="col" style="text-align:center;">Warehouse Asal</th>
-                    <th scope="col" style="text-align:center;">Warehouse Tujuan</th>
-                    <th scope="col" style="text-align:center;">Jumlah</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">ID Produk</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Asal</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Tujuan</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Jumlah</th>
                 </tr>
             </thead>
             <tbody class="table table-success table-striped" style="text-align: center;">
