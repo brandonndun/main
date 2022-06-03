@@ -15,7 +15,7 @@
 <body>
 @include("navbar")
     <div class="container">
-        <h1 class="text-center mt-5">Edit Product</h1>
+        <h1 class="text-center mt-5" style="font-family:quicksand">Edit Product</h1>
         <div class="row" style="margin-top: -120px;">
             <div class="col">
                 <img src="img/image-gallery.png" alt="image-gallery.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto; margin-top: 150px;">
