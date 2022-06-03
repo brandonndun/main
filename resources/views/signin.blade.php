@@ -17,23 +17,30 @@
             <h2 class="title">Sign In</h2>
         </div>
         <div class="wrapper-main">
-            <form action="/home" method="get">
+            <form action="/ceksignin" method="post">
+                @csrf
                 <div class="group">
-                    <label for="email">Username</label>
+                    <label for="username">Username</label>
                     <div class="icons">
                         <i class="fa-solid fa-circle-user"></i>
                     </div>
-                        <input type="text" placeholder="Username" >
+                        <input type="text" name="username" placeholder="Username" required>
                 </div>
                 <div class="group">
                     <label for="password">Password</label>
                     <div class="icons">
                         <i class="fa-solid fa-lock"></i>
                     </div>
-                    <input type="password" placeholder="Password">
+                    <input type="password" name="password"placeholder="Password" required>
                 </div>
-                <h3>Forget username/password ?</h3>
+                @if(session()->has('error'))
+            <div class="alert" style="background: hsla(0, 100%, 70%, 0.3); color: #B22222; width:100%;">
+                {{session()->get('error')}}
+            </div>
+            @endif
+                <!-- <h3>Forget username/password ?</h3> -->
                 <div class="group">
+                   
                     <input type="submit" value="Sign In">
             <!-- <input type="reset" value="Reset"> -->
             </form>
