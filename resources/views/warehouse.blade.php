@@ -22,7 +22,7 @@
                             <div class="subheader">
                                 <label style="font-family: quicksand">Warehouse A</label>
                                 <div class="text">
-                                    <label style="font-family: quicksand">Asal Kota : Solo</label>
+                                    <label style="font-family: quicksand">Asal Kota : Bali</label>
                                 </div>
                                 <div class="text2">
                                     <label style="font-family: quicksand">Admin : Vanya</label>
@@ -39,7 +39,7 @@
                             <div class="subheader">
                                 <label style="font-family: quicksand">Warehouse B</label>
                                 <div class="text">
-                                    <label style="font-family: quicksand">Asal Kota : Bali</label>
+                                    <label style="font-family: quicksand">Asal Kota : Surabaya</label>
                                 </div>
                                 <div class="text2">
                                     <label style="font-family: quicksand">Admin : Brandon</label>
@@ -56,10 +56,10 @@
                             <div class="subheader">
                                 <label style="font-family: quicksand">Warehouse C</label>
                                 <div class="text">
-                                    <label style="font-family: quicksand">Asal Kota : Jakarta</label>
+                                    <label style="font-family: quicksand">Asal Kota : Solo</label>
                                 </div>
                                 <div class="text2">
-                                    <label style="font-family: quicksand">Admin : Vanes</label>
+                                    <label style="font-family: quicksand">Admin : Vanessa</label>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +73,7 @@
                             <div class="subheader">
                                 <label style="font-family: quicksand">Warehouse D</label>
                                 <div class="text">
-                                    <label style="font-family: quicksand">Asal Kota : Surabaya</label>
+                                    <label style="font-family: quicksand">Asal Kota : Jakarta</label>
                                 </div>
                                 <div class="text2">
                                     <label style="font-family: quicksand">Admin : Jason</label>

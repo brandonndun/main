@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
+use App\Http\Controllers\signinController;
 
 
 /*
@@ -26,9 +27,9 @@ Route::get('/warehouse', function () {
     return view('warehouse');
 });
 
-Route::get('/', function () {
-    return view('login');
-});
+// Route::get('/', function () {
+//     return view('login');
+// });
 Route::get('/reduceproduct', function () {
     return view('reduceproduct');
 });
@@ -47,6 +48,7 @@ Route::get('/product', function () {
 });
 
 Route::get('/editproduct/{idproduct}','App\Http\Controllers\edit@editproduk');
+Route::post('/ceksignin','App\Http\Controllers\signinController@signin');
 
 Route::get('/navbar', function () {
     return view('navbar');
