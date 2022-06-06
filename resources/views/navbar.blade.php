@@ -35,7 +35,7 @@
                         <a class="nav-link active" style="margin : 0 12px" href="product2">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="margin : 0 12px" href="/stockopname">Stock Opname</a>
+                        <a class="nav-link active" style="margin : 0 12px" href="/stockopname">Laporan Stock Opname</a>
                     </li>
                     <a class="nav-link active" style="margin : 0 12px" aria-current="page"
                         href="/transaksi">Transaksi</a>
