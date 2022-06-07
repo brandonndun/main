@@ -16,34 +16,41 @@
             <h2 class="title">Sign Up</h2>
         </div>
         <div class="wrapper-main">
-            <form action="#" method="post">
+            <form action="/register" method="POST">
+                @csrf
                 <div class="group">
                     <label for="warehouse">Warehouse</label>
                     <div class="icons">
                         <i class="fa-solid fa-warehouse"></i>
                     </div>
-                        <input type="text" placeholder="Warehouse">
+                    <input type="text" placeholder="Warehouse" name="warehouse" required>
                 </div>
+                <div class="group">
+                        <label for="warehouse">Nama</label>
+                        <div class="icons">
+                            <i class="fa-solid fa-pencil"></i>
+                        </div>
+                            <input type="text" placeholder="Nama" name="nama" required>
+                    </div>
                 <div class="group">
                     <label for="email">Username</label>
                     <div class="icons">
                         <i class="fa-solid fa-circle-user"></i>
                     </div>
-                        <input type="text" placeholder="Username" required>
+                        <input type="text" placeholder="Username" name="username" required>
                 </div>
                 <div class="group">
                     <label for="password">Password</label>
                     <div class="icons">
                         <i class="fa-solid fa-lock"></i>
                     </div>
-                        <input type="password" placeholder="Password"required>
+                        <input type="password" placeholder="Password" name="password"required>
                 </div>
- <div class="group">
- <input type="submit" value="CREATE AN ACCOUNT">
- <!-- <input type="reset" value="Reset"> -->
- <h5>SIGN IN NOW</h5>
- </div>
- </form>
+                <div class="group">
+                <input type="submit" value="CREATE AN ACCOUNT">
+                <!-- <input type="reset" value="Reset"> -->
+                </div>
+            </form>
  </div>
  </div>
 </body>

@@ -42,7 +42,7 @@ Route::get('/', function () {
 Route::get('/signups', function () {
     return view('signups');
 });
-
+Route::post('/register', 'App\Http\Controllers\signinController@regis');
 Route::get('/product', function () {
     return view('product');
 });
