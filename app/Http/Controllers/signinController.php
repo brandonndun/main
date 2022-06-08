@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\signin;
+use App\Models\signup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
@@ -41,17 +42,25 @@ class signinController extends Controller
     public function regis(Request $req){
 
         $messages = array();
-        $user = $_POST['user'];
+        $user = $_POST['username'];
         $password = $_POST['password'];
+        $warehouse =$_POST['warehouse'];
+        $nama = $_POST['nama'];
 
-        $data = [
-            'user' => $user,
-            'password' => $password
-        ];
+        // $request = [
+        //     'username' => $user,
+        //     'password' => $password,
+        //     'warehouse' => $warehouse,
+        //     'nama' => $nama
+        // ];
 
-        $user = New signin();
-        $flag_exist = $user->insert($data);
+        $models = New signup;
+        $flag_exist = $models->signup($user, $password, $warehouse, $nama);
 
+        if ($flag_exist){
+
+            return redirect('/');
+        }
 
     }
     public function logout(Request $req){

@@ -42,6 +42,7 @@
                 <div class="group">
                    
                     <input type="submit" value="Sign In">
+                    <a style="display:flex; justify-content:center;"href ="/signups">Dont Have an account?</a>
             <!-- <input type="reset" value="Reset"> -->
             </form>
         </div>
