@@ -22,8 +22,10 @@
                 <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; align-items: center; position: absolute; left: 45%; margin-top: 267px;">Edit Photo</button>
             </div>
             <div class="col" style="margin-top: 230px">
-                <form action="/edit/{{$edit[0]->ID_PRODUK}}" method="POST">
+                <form action="/edit" method="POST">
                     @csrf
+                    <input type="hidden" name= "idpencatatan" value="{{$edit[0]->ID_PENCATATAN}}"/>
+                    <input type="hidden" name= "idproduk" value="{{$edit[0]->ID_PRODUK}}"/>
                 <div class="form-group row">
                     <div class="col-sm-10">
                         <input name="nama" type="text" class="form-control" id="inputNama" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Nama Produk">

@@ -46,9 +46,11 @@ Route::get('/signups', function () {
 Route::get('/product', function () {
     return view('product');
 });
-
-Route::get('/editproduct/{idproduct}','App\Http\Controllers\edit@editproduk');
+Route::get('/produk/{kota}','App\Http\Controllers\product@produkkota');
+Route::post('/editproduct','App\Http\Controllers\edit@editproduk');
 Route::post('/ceksignin','App\Http\Controllers\signinController@signin');
+Route::post('/deleteproduk','App\Http\Controllers\delete@deleteproduk');
+Route::post('/insertproduk','App\Http\Controllers\insert@insertproduk');
 
 Route::get('/navbar', function () {
     return view('navbar');
@@ -72,4 +74,4 @@ Route::get('/addproduct', function () {
 Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
 
 Route::get('/product2', [product::class, 'product']);
-Route::post('/edit/{id}','App\Http\Controllers\edit@edit');
+Route::post('/edit','App\Http\Controllers\edit@edit');

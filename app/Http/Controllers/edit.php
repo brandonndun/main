@@ -8,15 +8,20 @@ use Illuminate\Support\Facades\DB;
 class edit extends Controller
 {
     //
-    public function editproduk($idproduct){
-    $edit = DB::select('select * from PRODUK where ID_PRODUK = :id', ["id" => $idproduct]);
+    public function editproduk(Request $request){
+    $edit = DB::select('select * from PENCATATAN_STOK where ID_PENCATATAN = :id', ["id" => $request->idpencatatan]);
     return view('editproduct')->with('edit', $edit);
     }
-    public function edit(Request $request,$id){
+    public function edit(Request $request){
         DB::table('PRODUK')
-            ->where('ID_PRODUK', '=', $id)
+            ->where('ID_PRODUK', '=', $request->idproduk)
             ->update([
                 'NAMA_PRODUK' => $request->nama
+            ]);
+            DB::table('PENCATATAN_STOK')
+            ->where('ID_PENCATATAN', '=', $request->idpencatatan)
+            ->update([
+                'KETERANGAN' => $request->ket
             ]);
         return redirect("/product2");
 

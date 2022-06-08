@@ -19,7 +19,8 @@
 <body>
 
     @include("navbar")
-
+    <form action = "/insertproduk" method = "post">
+    @csrf
     <div class="baa" style="padding-bottom: 10px;">
         <div class="container">
             <h1 class="text-center mt-5">Insert Product</h1>
@@ -33,45 +34,45 @@
                 </div>
                 <div class="col" style="margin-top: 190px;">
                     <div class="form-group row">
-                        <div class="col-sm-10" style="width: 50%">
-                            <input type="text" class="form-control" id="inputID"
-                                style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;"
-                                placeholder="ID Produk">
-                        </div>
-                    </div>
-                    <div class="form-group row">
                         <div class="col-sm-10" style="width: 70%">
                             <input type="text" class="form-control" id="inputNama"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Nama Produk">
+                                placeholder="Nama Produk" name="namaproduk">
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10" style="width: 50%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Keterangan">
+                                placeholder="Keterangan" name="keterangan">
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10" style="width: 70%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Warehouse Asal">
+                                placeholder="Warehouse Asal" name="warehouse_asal">
                         </div>
                         <div class="form-group row">
                         <div class="col-sm-10" style="width:50%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Jumlah">
+                                placeholder="Jumlah" name="jumlah">
+                        </div>
+                        <div class="form-group row">
+                        <div class="col-sm-10" style="width:50%">
+                            <input type="text" class="form-control" id="inputKet"
+                                style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
+                                placeholder="ID Pencatatan" name="id_pencatatan">
                         </div>
                     </div>  
-                    <button type="button" class="btn d-flex justify-content-center align-middle"
+                    <button type="submit" class="btn d-flex justify-content-center align-middle"
                         style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 131px; align-items: right; right: 19%; margin-left: 442px; width: 17%">Insert</button>
                 </div>
             </div>
         </div>
     </div>
+</form>
     
 </body>
 

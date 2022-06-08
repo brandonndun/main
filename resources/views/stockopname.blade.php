@@ -31,8 +31,8 @@
                     <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">ID Produk</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Asal</th>
-                    <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Tujuan</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Jumlah</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Keterangan</th>
                 </tr>
             </thead>
             <tbody class="table table-success table-striped" style="text-align: center; font-family: quicksand">
@@ -43,8 +43,8 @@
                         <td>{$tabel[$x]->Tanggal}</td>
                         <td>{$tabel[$x]->ID_PRODUK}</td>
                         <td>{$tabel[$x]->WAREHOUSE_ASAL}</td>
-                        <td>{$tabel[$x]->WAREHOUSE_TUJUAN}</td>
                         <td>{$tabel[$x]->JUMLAH}</td>
+                        <td>{$tabel[$x]->Keterangan}</td>
                       </tr>";
             }
                     ?>

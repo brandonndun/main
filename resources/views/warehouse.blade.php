@@ -15,6 +15,7 @@
 
         <div class="small-container cart page" style="margin-bottom: 57px">
             <div class="container">
+            <a href="produk/bali">
                <div class="card" style="background-color: #57B846;margin-top: 43px; border-radius: 27px">
                     <div class="cart-info">
                         <div style="background-color: green; border-radius: 29px">
@@ -31,7 +32,9 @@
                         </div>
                     </div>
                 </div>
+                </a>
                 <br>
+                <a href="produk/surabaya">
                 <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
                         <div style="background-color: green; border-radius: 29px">
@@ -48,7 +51,9 @@
                         </div>
                     </div>
                 </div>
+</a>
                 <br>
+                <a href="produk/solo">
                 <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
                         <div style="background-color: green; border-radius: 29px">
@@ -65,7 +70,9 @@
                         </div>
                     </div>
                 </div>
+</a>
                 <br>
+                <a href="produk/jakarta">
                 <div class="card" style="background-color: #57B846; border-radius: 27px">
                     <div class="cart-info">
                         <div style="background-color: green; border-radius: 29px;">
@@ -82,6 +89,7 @@
                         </div>
                     </div>
                 </div>
+</a>
             </div>
                 </div>
             </body>

@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color : #D0F2A4">
         <div class="container-fluid">
             <a class="navbar-brand" href="home" style="z-index: 2">
-                <img src="img/Asun-Logo-Header-250.webp" style="width : 100px; margin-left:70px;" alt="">
+                <img src="/img/Asun-Logo-Header-250.webp" style="width : 100px; margin-left:70px;" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                         <a class="nav-link active" aria-current="page" href="/warehouse">Warehouse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" style="margin : 0 12px" href="product2">Product</a>
+                        <a class="nav-link active" style="margin : 0 12px" href="/product2">Product</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" style="margin : 0 12px" href="/stockopname">Laporan Stock Opname</a>

@@ -39,27 +39,33 @@
             @foreach($product as $produk)
             <div class='col'>
                 <div class="produk" style="box-shadow: 15px 15px 5px grey; border-radius:0%; width: 338px">
-                    <img class="card-img-top" src="img/pancake.jpeg" alt="Card image cap"
+                    <img class="card-img-top" src="/img/pancake.jpeg" alt="Card image cap"
                         style=" border-radius:0%;width:100%; padding-bottom:10px; margin-top:10px; ">
                     <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand">{{$produk -> NAMA_PRODUK}}</h2>
-                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px;">100</h2>
-                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px">Surabaya</h2>
-                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px">Pengiriman</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px;">{{$produk -> JUMLAH}}</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px">{{$produk -> WAREHOUSE_ASAL}}</h2>
+                    <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px">{{$produk -> KETERANGAN}}</h2>
     
     
                     <div class="tombol">
     
                         <div class="row" style="width:60%;margin-left:20%; padding-bottom:20px">
-    
+                            <form action="/editproduct" method="post">
+                                @csrf
                             <div class="col">
-                            <a class="btn btn-primary" href="editproduct/{{$produk -> ID_PRODUK}}" role="button"
-                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Edit</a>
+                                <input type="hidden" name= "idpencatatan" value="{{$produk -> ID_PENCATATAN}}"/>
+                            <button type="submit" class="btn btn-primary" role="button"
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Edit</button>
                             </div>
-    
+                            </form>
+                            <form action="/deleteproduk" method="post">
+                                @csrf
                             <div class="col">
-                            <a class="btn btn-primary" href="#" role="button"
-                            style="width:90% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Delete</a>
+                            <input type="hidden" name= "idpencatatan" value="{{$produk -> ID_PENCATATAN}}"/>
+                            <button type="submit" class="btn btn-primary" role="button"
+                            style="width:90% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Delete</button>
                             </div>
+                            </form>
                         </div>
     
     
