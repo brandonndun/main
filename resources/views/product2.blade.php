@@ -71,8 +71,11 @@
     
                         <div class="row" style="width:90%;margin-left:5%; padding-bottom:30px">
                             <div class="col">
-                            <a class="btn btn-primary" href="addproduct" role="button"
-                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Add</a>
+                                <form action="/addproduct" method="POST">
+                                    @csrf
+                                    <input type="hidden" name="id_add_produk" value="{{$produk->ID_PRODUK}}">
+                                    <input type="submit" class="btn btn-primary" style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none" value="Add">
+                                </form>    
                             </div>
     
                             <div class="col">

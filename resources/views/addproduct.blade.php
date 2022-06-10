@@ -21,26 +21,29 @@
                 <img src="img/image-gallery.png" alt="image-gallery.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto; margin-top: 150px;">
             </div>
             <div class="col" style="margin-top: 230px">
-                <div class="form-group row">
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputNama" style="background-color: #D0F2A4; width: 461px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-bottom: 20px;" placeholder="Nama Produk">
+                <form action="/add" method="POST">
+                    @csrf
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                            <input type="text" name="nama" class="form-control" id="inputNama" style="background-color: #D0F2A4; width: 461px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-bottom: 20px; color: grey;" value="{{$get_data_produk[0]->NAMA_PRODUK}}" disabled>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <p1>Supplier : </p1>
-                    <div class="col-sm-10" style="margin-top: 5px;">
-                        <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; width: 350px; margin-left: 110px; margin-top: -39px; margin-bottom: 10px;" placeholder="">
+                    <div class="form-group row">
+                        <p1>Supplier : </p1>
+                        <div class="col-sm-10" style="margin-top: 5px;">
+                            <input type="text" name="supplier" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; width: 350px; margin-left: 110px; margin-top: -39px; margin-bottom: 10px;" placeholder="">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <p1>Jumlah : </p1>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; width: 350px; margin-left: 110px; margin-top: -39px;" placeholder="">
+                    <div class="form-group row">
+                        <p1>Jumlah : </p1>
+                        <div class="col-sm-10">
+                            <input type="text" name="jumlah" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; width: 350px; margin-left: 110px; margin-top: -39px;" placeholder="">
+                        </div>
                     </div>
-                </div>
 
-                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 42px; position: absolute; align-items: right; right: 20%;">Cancel</button>
-                <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 42px; margin-right: -81px; height: 37px; position: absolute; align-items: right; right: 50%;">Add</button>
+                    <button type="button" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 42px; position: absolute; align-items: right; right: 20%;">Cancel</button>
+                    <input type="submit" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 42px; margin-right: -81px; height: 37px; position: absolute; align-items: right; right: 50%;" class="btn d-flex justify-content-center align-middle" value="Add">
+                </form>
             </div>
         </div>
     </div>
