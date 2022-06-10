@@ -37,33 +37,33 @@
                         <div class="col-sm-10" style="width: 70%">
                             <input type="text" class="form-control" id="inputNama"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Nama Produk" name="namaproduk">
+                                placeholder="Nama Produk" name="namaproduk" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10" style="width: 50%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Keterangan" name="keterangan">
+                                placeholder="Keterangan" name="keterangan" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-sm-10" style="width: 70%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Warehouse Asal" name="warehouse_asal">
+                                placeholder="Warehouse Asal" name="warehouse_asal" required>
                         </div>
                         <div class="form-group row">
                         <div class="col-sm-10" style="width:50%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="Jumlah" name="jumlah">
+                                placeholder="Jumlah" name="jumlah" required>
                         </div>
                         <div class="form-group row">
                         <div class="col-sm-10" style="width:50%">
                             <input type="text" class="form-control" id="inputKet"
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="ID Pencatatan" name="id_pencatatan">
+                                placeholder="ID Pencatatan" name="id_pencatatan" required>
                         </div>
                     </div>  
                     <button type="submit" class="btn d-flex justify-content-center align-middle"
