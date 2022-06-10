@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\add;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
@@ -68,10 +69,9 @@ Route::get('/insertproduct', function () {
 Route::get('/home', function () {
     return view('home');
 });
-Route::get('/addproduct', function () {
-    return view('addproduct');
-});
+Route::POST('/addproduct', 'App\Http\Controllers\add@show_add');
 Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
 
 Route::get('/product2', [product::class, 'product']);
 Route::post('/edit','App\Http\Controllers\edit@edit');
+Route::post('/add','App\Http\Controllers\add@add');

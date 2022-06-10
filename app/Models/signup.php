@@ -29,4 +29,16 @@ class signup extends Model
 
         return $run_insert;
     }
+
+    public function insert_produk($produk, $supplier, $jumlah){
+        $query = "INSERT INTO `PRODUK`(`NAMA_PRODUK`, `FOTO_PRODUK`, `DELETE_STATUS`) VALUES ('".$produk."','".$supplier."','".$jumlah."','0');";
+        $run_query = DB::insert($query);
+        return $run_query;
+    }
+
+    public function show_product($id_produk){
+        $query = "SELECT * FROM PRODUK WHERE ID_PRODUK = '".$id_produk."';";
+        $run_query = DB::select($query);
+        return $run_query;
+    }
 }
