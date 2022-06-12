@@ -55,6 +55,7 @@ Route::post('/deleteproduk','App\Http\Controllers\delete@deleteproduk');
 Route::post('/insertproduk','App\Http\Controllers\insert@insertproduk');
 // Route::post('/product2',[reduce::class, 'reduce2']);
 Route::post('/product2',[reduce1::class,'reduce2']);
+Route::get('/reduceproduct/{id}','App\Http\Controllers\reduce1@details');
 
 
 Route::get('/navbar', function () {

@@ -79,7 +79,7 @@
                             </div>
     
                             <div class="col">
-                            <a class="btn btn-primary" href="reduceproduct" role="button"
+                            <a class="btn btn-primary" href="{{url('reduceproduct/'.$produk->ID_PRODUK)}}" role="button"
                             style="width: 92%; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Reduce</a>
                             </div>
     
