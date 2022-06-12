@@ -52,6 +52,9 @@
                         <li>
                             <a class="dropdown-item" href="#">Bali</a>
                         </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Solo</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="jumlah"

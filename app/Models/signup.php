@@ -30,8 +30,8 @@ class signup extends Model
         return $run_insert;
     }
 
-    public function insert_produk($produk, $supplier, $jumlah){
-        $query = "INSERT INTO `PRODUK`(`NAMA_PRODUK`, `FOTO_PRODUK`, `DELETE_STATUS`) VALUES ('".$produk."','".$supplier."','".$jumlah."','0');";
+    public function insert_produk($id_produk, $supplier, $harga, $warehouse, $jumlah, $status){
+        $query = "INSERT INTO `PEMBELIAN`(`Warehouse`, `ID_PRODUK`, `TANGGAL_PEMBELIAN`, `NAMA_SUPPLIER`, `JUMLAH`, `TOTAL_BELI`, `STATUS_PEMBAYARAN`) VALUES ('".$warehouse."', '".$id_produk."', date(now()), '".$supplier."',".$jumlah.",".$harga.", '".$status."');";
         $run_query = DB::insert($query);
         return $run_query;
     }
