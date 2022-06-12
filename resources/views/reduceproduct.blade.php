@@ -14,6 +14,8 @@
 </head>
 <body style="overflow: hidden">
 @include('navbar')
+<form action = "/product2" method = "post">
+  @csrf
 <h1 class="text-center mt-5">Reduce Product</h1>
 <div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
 </div>
@@ -25,34 +27,36 @@
 
   <div class="inputbox" style="display:flex; flex-direction: column;">
     <div class="form-id-produk">
-        <input type="idproduk" class="form-control" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="id_produk" placeholder="ID Produk :">
+        <input type="text" name="idproduk" class="form-control" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="id_produk" placeholder="ID Produk :">
     </div>
 
     <div class="inputbox" style="display:flex; flex-direction: column;">
     <div class="form-nama-produk">
-        <input type="namaproduk" class="form-control" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="nama_produk" placeholder="Nama Produk :" required>
+        <input type="text" name="namaproduk" class="form-control" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="nama_produk" placeholder="Nama Produk :" required>
     </div>
 
   <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
       <label for=""style="margin-top: 30px; margin-left: 80px">Jumlah</label>
     <div class="jumlah">
-        <input type="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
+        <input type="text" name="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
     </div>
     </div>
 
   <div class="keterangan" style="align-items: center; display: flex; margin-left: 22px; font-family : quicksand ">
       <label for=""style="margin-top: 45px; margin-left: 100px">Keterangan</label>
     <div class="keterangan">
-        <input type ="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan"></textarea>
+        <input type ="text" name="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan"></textarea>
     </div>
     </div>
 
     <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
-    <button type="button-cancel" style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -47px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Cancel</button>
+    <button type="" style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -47px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Cancel</button>
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
-    <button type="button-reduce" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-left: 82px; height: 30px; margin-top: 15px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Reduce</button >
+    <button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-left: 82px; height: 30px; margin-top: 15px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Reduce</button >
     </div>  
+    </form>
+    
 </body>
 </html>

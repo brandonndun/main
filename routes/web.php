@@ -4,6 +4,7 @@ use App\Http\Controllers\add;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
+use App\Http\Controllers\reduce1;
 
 
 /*
@@ -52,6 +53,9 @@ Route::post('/editproduct','App\Http\Controllers\edit@editproduk');
 Route::post('/ceksignin','App\Http\Controllers\signinController@signin');
 Route::post('/deleteproduk','App\Http\Controllers\delete@deleteproduk');
 Route::post('/insertproduk','App\Http\Controllers\insert@insertproduk');
+// Route::post('/product2',[reduce::class, 'reduce2']);
+Route::post('/product2',[reduce1::class,'reduce2']);
+
 
 Route::get('/navbar', function () {
     return view('navbar');
