@@ -54,6 +54,7 @@
                 Rp 1.000.000</h4>
         </div>
     </div>
+    
     <div class="riwayat-pembayaran"
         style="width: 1179px; border: solid; margin-left: 167px; margin-top: 72px; background-color: #DDF5D5; padding: 186px; border-radius: 31px; margin-bottom: 70px"
         id="riwayat-pembayaran">

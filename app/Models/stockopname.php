@@ -13,6 +13,7 @@ class stockopname extends Model
         $value = "SELECT t.TANGGAL_PENCATATAN as `Tanggal`,t.ID_PRODUK as `ID_PRODUK`,t.WAREHOUSE_ASAL as `WAREHOUSE_ASAL`, t.WAREHOUSE_TUJUAN as `WAREHOUSE_TUJUAN`, t.JUMLAH as `JUMLAH`, `KETERANGAN` as `Keterangan` 
         FROM PENCATATAN_STOK t";
         $produk = DB::select($value);
+        //me return ketika function tableproduk dipanggil
         return $produk;
 }
 }
