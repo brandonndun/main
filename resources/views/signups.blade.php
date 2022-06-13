@@ -24,9 +24,15 @@
                         <i class="fa-solid fa-warehouse"></i>
                     </div>
                     <input type="text" placeholder="Warehouse" name="warehouse" required>
+                    <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu">
+                                <option value="Jakarta">
+                                <option value="Surabaya">
+                                <option value="Bali">
+                                <option value="Solo">
+                            </datalist>   
                 </div>
                 <div class="group">
-                        <label for="warehouse">Nama</label>
+                        <label for="nama">Nama</label>
                         <div class="icons">
                             <i class="fa-solid fa-pencil"></i>
                         </div>

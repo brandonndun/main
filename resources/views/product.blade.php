@@ -98,7 +98,7 @@
     <footer class="page-footer font-large special-color-dark pt-4" style="margin-top : 100px;">
 
        
-<div class="container">
+<!-- <div class="container">
 
    
     <ul class="list-unstyled list-inline text-center">
@@ -144,7 +144,7 @@
 
 <div class="footer-copyright text-center py-3">Durian Asun Surabaya
 
-</div>
+</div> -->
 
 
 </footer>
