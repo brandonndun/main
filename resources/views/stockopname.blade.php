@@ -30,6 +30,8 @@
                 <tr style="background-color:#57B846;">
                     <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">ID Produk</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Asal</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Tujuan</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Asal</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Tujuan</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Jumlah</th>

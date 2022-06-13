@@ -38,7 +38,7 @@
                 </div>
                 <button type="submit" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 106px; position: absolute; align-items: right; right: 19%;">Save</button>
                 </form>
-            </div>
+            </div> 
         </div>
     </div>
     
