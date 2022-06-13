@@ -55,7 +55,7 @@
                             <div class="col">
                                 <input type="hidden" name= "idpencatatan" value="{{$produk -> ID_PENCATATAN}}"/>
                             <button type="submit" class="btn btn-primary" role="button"
-                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Edit</button>
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand">Edit</button>
                             </div>
                             </form>
                             <form action="/deleteproduk" method="post">
@@ -63,7 +63,7 @@
                             <div class="col">
                             <input type="hidden" name= "idpencatatan" value="{{$produk -> ID_PENCATATAN}}"/>
                             <button type="submit" class="btn btn-primary" role="button"
-                            style="width:90% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Delete</button>
+                            style="width:90% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand">Delete</button>
                             </div>
                             </form>
                         </div>
@@ -74,18 +74,18 @@
                                 <form action="/addproduct" method="POST">
                                     @csrf
                                     <input type="hidden" name="id_add_produk" value="{{$produk->ID_PRODUK}}">
-                                    <input type="submit" class="btn btn-primary" style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none" value="Add">
+                                    <input type="submit" class="btn btn-primary" style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand" value="Add">
                                 </form>    
                             </div>
     
                             <div class="col">
                             <a class="btn btn-primary" href="{{url('reduceproduct/'.$produk->ID_PRODUK)}}" role="button"
-                            style="width: 92%; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Reduce</a>
+                            style="width: 92%; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand">Reduce</a>
                             </div>
     
                             <div class=" col">
                             <a class="btn btn-primary" href="sendproduct" role="button"
-                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none">Send</a>
+                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand">Send</a>
                             </div>
                         </div>
     
