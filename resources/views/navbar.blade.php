@@ -31,9 +31,7 @@
                     <li class="nav-item ">
                         <a class="nav-link active" aria-current="page" href="/warehouse">Warehouse</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" style="margin : 0 12px" href="/product2">Product</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link active" style="margin : 0 12px" href="/stockopname">Laporan Stock Opname</a>
                     </li>

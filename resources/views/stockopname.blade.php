@@ -30,7 +30,8 @@
                 <tr style="background-color:#57B846;">
                     <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">ID Produk</th>
-                    <th scope="col" style="text-align:center; font-family: quicksand">Warehouse Asal</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Asal</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Tujuan</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Jumlah</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Keterangan</th>
                 </tr>
@@ -43,6 +44,7 @@
                         <td>{$tabel[$x]->Tanggal}</td>
                         <td>{$tabel[$x]->ID_PRODUK}</td>
                         <td>{$tabel[$x]->WAREHOUSE_ASAL}</td>
+                        <td>{$tabel[$x]->WAREHOUSE_TUJUAN}</td>
                         <td>{$tabel[$x]->JUMLAH}</td>
                         <td>{$tabel[$x]->Keterangan}</td>
                       </tr>";
