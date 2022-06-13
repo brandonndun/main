@@ -9,8 +9,8 @@ class insert extends Controller
 {
     //
     public function insertproduk(Request $request){
-        DB::table('PRODUK')->insert([
-            'ID_PRODUK' =>"id_produk",
+        DB::_table('PRODUK')->insert([
+            'ID_PRODUK' =>"idproduk",
             'NAMA_PRODUK' => $request->namaproduk,
             'STOCK' => $request->jumlah
         ]);

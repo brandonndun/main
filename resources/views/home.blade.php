@@ -21,7 +21,7 @@
 <body>
 @include('navbar')
     <div class="home_body" style="text-align:center;">
-        <h1 style="text-align:center; padding-top:20px ; padding-bottom:20px;">Welcome to Durian Asun Storage</h1>
+        <h1 style="text-align:center; padding-top:20px ; padding-bottom:20px; font-family: quicksand">Welcome to Durian Asun Storage</h1>
         
         <div class="youtube_page" >
         <div style="width:90%; margin-left:5%;border-style:solid;">
@@ -32,7 +32,7 @@
         </div>
         </div>
 
-        <h1 style="text-align:center;">OUR BEST PRODUCTS</h1>
+        <h1 style="text-align:center; font-family: quicksand">OUR BEST PRODUCTS</h1>
 
         <div class="katalog-home" style="width:90%;margin-left:5%;">
 
@@ -40,28 +40,28 @@
                 <div class="card">
                     <img class="card-img-top" src="img/durianpetruk.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Durian Petruk</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        <h5 class="card-title" style="font-family: quicksand; font-weight: bold">Durian Petruk</h5>
+                        <p class="card-text" style="font-family: quicksand">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text"><small class="text-muted" style="font-family: quicksand" >Last updated 3 mins ago</small></p>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="img/durianmedan.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Durian medan</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        <h5 class="card-title"style="font-family: quicksand; font-weight: bold">Durian medan</h5>
+                        <p class="card-text" style="font-family: quicksand" >This card has supporting text below as a natural lead-in to additional
                             content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text"><small class="text-muted" style="font-family: quicksand" >Last updated 3 mins ago</small></p>
                     </div>
                 </div>
                 <div class="card">
                     <img class="card-img-top" src="img/durianmusang.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Durian Musang</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                        <h5 class="card-title" style="font-family: quicksand; font-weight: bold" >Durian Musang</h5>
+                        <p class="card-text" style="font-family: quicksand" >This card has supporting text below as a natural lead-in to additional
                             content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <p class="card-text"><small class="text-muted" style="font-family: quicksand" >Last updated 3 mins ago</small></p>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
     </div>
 
     <div class="carousel-home">
-        <h1 style="text-align:center; padding-top:25px" ;>WHAT INSIDE OUR WAREHOUSE</h1>
+        <h1 style="text-align:center; padding-top:25px; font-family: quicksand" ;>WHAT INSIDE OUR WAREHOUSE</h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="padding-top:15px;">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
