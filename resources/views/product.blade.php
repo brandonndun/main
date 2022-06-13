@@ -30,7 +30,7 @@
 
     <h1 style="text-align:center;margin-top:25px; font-family: quicksand"> Product</h1>
     <div style="padding-bottom:30px">
-    <a class="btn btn-primary" href="insertproduct" role="button"
+    <a class="btn btn-primary" href="/insertproduct" role="button"
     style="margin-left: 82% ;box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; width:6%; color:black; font-family: quicksand; border: none">Insert</a>
     </div>
 

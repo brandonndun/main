@@ -21,6 +21,6 @@ class insert extends Controller
             'JUMLAH' => $request->jumlah,
             'TANGGAL_PENCATATAN' => now()
         ]);
-        return redirect("/product2");
+        return redirect("/product");
     }
 }

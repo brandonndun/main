@@ -25,7 +25,7 @@ class edit extends Controller
             ->update([
                 'KETERANGAN' => $request->ket
             ]);
-        return redirect("/product2");
+        return redirect("/product");
 
     }
 }

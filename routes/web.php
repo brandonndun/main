@@ -53,8 +53,8 @@ Route::post('/editproduct','App\Http\Controllers\edit@editproduk');
 Route::post('/ceksignin','App\Http\Controllers\signinController@signin');
 Route::post('/deleteproduk','App\Http\Controllers\delete@deleteproduk');
 Route::post('/insertproduk','App\Http\Controllers\insert@insertproduk');
-// Route::post('/product2',[reduce::class, 'reduce2']);
-Route::post('/product2',[reduce1::class,'reduce2']);
+// Route::post('/product',[reduce::class, 'reduce2']);
+Route::post('/product',[reduce1::class,'reduce2']);
 Route::get('/reduceproduct/{id}','App\Http\Controllers\reduce1@details');
 
 
@@ -77,6 +77,6 @@ Route::get('/home', function () {
 Route::POST('/addproduct', 'App\Http\Controllers\add@show_add');
 Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
 
-Route::get('/product2', [product::class, 'product']);
+Route::get('/product', [product::class, 'product']);
 Route::post('/edit','App\Http\Controllers\edit@edit');
 Route::post('/add','App\Http\Controllers\add@add');

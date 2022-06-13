@@ -20,7 +20,7 @@ class reduce1 extends Controller
        ->where('ID_PRODUK',$idproduk)
        ->update(['JUMLAH'=>$jumlah,'KETERANGAN' => $keterangan]);
        return back()->with('Data berubah','Update Berhasil');
-       //return view ('/product2');
+       //return view ('/product');
     }
 
     public function details($id, Request $request){

@@ -14,7 +14,7 @@ class delete extends Controller
             ->update([
                 'DELETE_STATUS' => 1
             ]);
-    return redirect("/product2");
+    return redirect("/product");
 
     
     }

@@ -14,7 +14,7 @@
 </head>
 <body style="overflow: hidden">
 @include('navbar')
-<form action = "/product2" method = "post">
+<form action = "/product" method = "post">
   @csrf
 <h1 class="text-center mt-5">Reduce Product</h1>
 <div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
@@ -50,7 +50,7 @@
     </div>
 
     <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
-    <a href ="/product2"><button type="submit"style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -47px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Cancel</button></a>
+    <a href ="/product"><button type="submit"style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -47px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Cancel</button></a>
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">

@@ -19,7 +19,7 @@ class insert extends Controller
        $reduce = new reduce;
        $buwbuw = $reduce ->  isreduce($jumlah, $idproduk, $keterangan, $namaproduk);
 
-       return view ('/product2');
+       return view ('/product');
     }
 }
 
