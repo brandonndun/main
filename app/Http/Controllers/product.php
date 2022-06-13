@@ -10,7 +10,7 @@ class product extends Controller
 {
     //Menampilkan tabel view product
     public function product(){
-        $produk = DB::select('select * from PRODUK, PENCATATAN_STOK where PENCATATAN_STOK.DELETE_STATUS = 0 AND PRODUK.ID_PRODUK = PENCATATAN_STOK.ID_PRODUK ');
+        $produk = DB::select('select * from PRODUK, PENCATATAN_STOK where PENCATATAN_STOK.DELETE_STATUS = 0 AND PRODUK.ID_PRODUK = PENCATATAN_STOK.ID_PRODUK ORDER BY PRODUK.ID_PRODUK ASC');
         return view('product2')->with('product', $produk);
 
     }

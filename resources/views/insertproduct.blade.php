@@ -59,12 +59,6 @@
                                 style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
                                 placeholder="Jumlah" name="jumlah" required>
                         </div>
-                        <div class="form-group row">
-                        <div class="col-sm-10" style="width:50%">
-                            <input type="text" class="form-control" id="inputKet"
-                                style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;"
-                                placeholder="ID Pencatatan" name="id_pencatatan" required>
-                        </div>
                     </div>  
                     <button type="submit" class="btn d-flex justify-content-center align-middle"
                         style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 131px; align-items: right; right: 19%; margin-left: 442px; width: 17%">Insert</button>
