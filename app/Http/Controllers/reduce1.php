@@ -13,14 +13,14 @@ class reduce1 extends Controller
        // dd("hola");
        $jumlah = $request -> input('jumlah');
        $idproduk = $request -> input('idproduk');
-       $keterangan = $request -> input('keterangan');
+       $keterangan = $request -> input('Keterangan');
        $namaproduk = $request -> input('namaproduk');
 
        $lalal  = DB::table('PENCATATAN_STOK')
        ->where('ID_PRODUK',$idproduk)
        ->update(['JUMLAH'=>$jumlah,'KETERANGAN' => $keterangan]);
        return back()->with('Data berubah','Update Berhasil');
-       //return view ('/product');
+   
     }
 
     public function details($id, Request $request){

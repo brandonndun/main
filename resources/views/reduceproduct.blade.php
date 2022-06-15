@@ -27,13 +27,30 @@
 
   <div class="inputbox" style="display:flex; flex-direction: column;">
     <div class="form-id-produk">
-        <input readonlytype="text" name="idproduk" class="form-control"value="{{$i[0]->ID_PRODUK}}" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:LightGray; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="id_produk" placeholder="ID Produk :">
+        <input readonly type="text" name="idproduk" class="form-control"value="{{$i[0]->ID_PRODUK}}" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:LightGray; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="id_produk" placeholder="ID Produk :">
     </div>
 
     <div class="inputbox" style="display:flex; flex-direction: column;">
     <div class="form-nama-produk">
-        <input type="text" name="namaproduk" class="form-control"value="{{$i[0]->NAMA_PRODUK}}" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="nama_produk" placeholder="Nama Produk :" required>
+        <input readonly type="text" name="namaproduk" class="form-control"value="{{$i[0]->NAMA_PRODUK}}" style="width: 444px; margin-left: 117px; margin-top: 52px; background-color:#D0F2A4; font-family : quicksand; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="nama_produk" placeholder="Nama Produk :" required>
     </div>
+
+    <div class="tujuan" style="align-items: center; display: flex; margin-left: 22px; font-family : quicksand ">
+      <label for=""style="margin-top: 45px; margin-left: 100px">Warehouse Tujuan</label>
+    <div class="tujuan">
+        <!-- <input type ="text" name="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan" required></textarea> -->
+        <div class="col-auto">
+                                <input class="btn btn-secon dropdown-toggle" type="search" name="Tujuan" list="dropdownMenuButton1"
+                                    aria-expanded="false" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Warehouse Tujuan" required>
+                                <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu" name="tujuan">
+                                    <option value="Bali">Bali
+                                    <option value="Solo">Solo
+                                    <option value="Surabaya">Surabaya
+                                    <option value="Jakarta">Jakarta
+                                </datalist>   
+                            </div>
+      </div>
+      </div>
 
   <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
       <label for=""style="margin-top: 30px; margin-left: 80px">Jumlah</label>
@@ -45,8 +62,18 @@
   <div class="keterangan" style="align-items: center; display: flex; margin-left: 22px; font-family : quicksand ">
       <label for=""style="margin-top: 45px; margin-left: 100px">Keterangan</label>
     <div class="keterangan">
-        <input type ="text" name="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan" required></textarea>
-    </div>
+        <!-- <input type ="text" name="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan" required></textarea> -->
+        <div class="col-auto">
+                                <input class="btn btn-secon dropdown-toggle" type="search" name="Keterangan" list="dropdownMenuButton1"
+                                    aria-expanded="false" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Keterangan" required>
+                                <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu" name="keterangan">
+                                    <option value="Barang terjual">Barang terjual
+                                    <option value="Barang rusak">Barang rusak
+                                   
+                                </datalist>   
+                            </div>
+      </div>
+
     </div>
 
     <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
@@ -54,7 +81,7 @@
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
-    <button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-left: 82px; height: 30px; margin-top: 15px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Reduce</button >
+    <a href ="/product"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-left: 82px; height: 30px; margin-top: 15px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Reduce</button ></a>
     </div>  
     @if(session()->has('error'))
                 <script>
