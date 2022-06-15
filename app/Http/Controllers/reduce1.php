@@ -15,10 +15,11 @@ class reduce1 extends Controller
        $idproduk = $request -> input('idproduk');
        $keterangan = $request -> input('Keterangan');
        $namaproduk = $request -> input('namaproduk');
+       $tujuan = $request -> input('Tujuan');
 
        $lalal  = DB::table('PENCATATAN_STOK')
        ->where('ID_PRODUK',$idproduk)
-       ->update(['JUMLAH'=>$jumlah,'KETERANGAN' => $keterangan]);
+       ->update(['JUMLAH'=>$jumlah,'KETERANGAN' => $keterangan,'WAREHOUSE_TUJUAN'=>$tujuan]);
        return back()->with('Data berubah','Update Berhasil');
    
     }
