@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
 use App\Http\Controllers\reduce1;
+use APP\Http\Controllers\stockopnameController;
 
 
 /*

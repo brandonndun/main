@@ -26,6 +26,19 @@
 
     <div class="container mt-3">
         <table class="table table-bordered">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <label>Asal</label>
+                    <select name='filter'id="filter-asal" class="form-control">
+                        <option value="" > Pilih Asal</option>
+                        @foreach($ID as $A)
+                        <option value="{{$tabel->ID_PRODUK}}"></option>
+                        @endforeach
+                    </select>
+                </div>
+            </div>
+
             <thead>
                 <tr style="background-color:#57B846;">
                     <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
