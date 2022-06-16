@@ -15,7 +15,7 @@
         <h1 class="text-center mt-5">Add Product</h1>
         <div class="row" style="">
             <div class="col">
-                <img src="img/image-gallery.png" alt="image-gallery.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
+            <img src="../img/pancake.jpeg" style="width : 350px; margin-left: 200px; margin-top: 61px;" class="img-fluid" alt="...">
             </div>
             <div class="col" style="margin-top:50px">
                 <form action="/add" method="POST">
