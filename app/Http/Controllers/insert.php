@@ -23,4 +23,6 @@ class insert extends Controller
         ]);
         return redirect("/product");
     }
+
+    
 }

@@ -40,9 +40,9 @@
     <div class="tujuan">
         <!-- <input type ="text" name="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan" required></textarea> -->
         <div class="col-auto">
-                                <input class="btn btn-secon dropdown-toggle" type="search" name="Tujuan" list="dropdownMenuButton1"
-                                    aria-expanded="false" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Warehouse Tujuan" required>
-                                <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu" name="tujuan">
+                                <input class="btn btn-secon dropdown-toggle" type="search" name="Tujuan" list="dropdownMenuButton2"
+                                    aria-expanded="false" style="width: 276px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 50px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Warehouse Tujuan" required>
+                                <datalist id="dropdownMenuButton2" class="dropdown dropdown-menu" name="tujuan">
                                     <option value="Bali">Bali
                                     <option value="Solo">Solo
                                     <option value="Surabaya">Surabaya
@@ -64,24 +64,23 @@
     <div class="keterangan">
         <!-- <input type ="text" name="keterangan" class="form-control" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="keterangan" required></textarea> -->
         <div class="col-auto">
-                                <input class="btn btn-secon dropdown-toggle" type="search" name="Keterangan" list="dropdownMenuButton1"
-                                    aria-expanded="false" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 100px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Keterangan" required>
-                                <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu" name="keterangan">
-                                    <option value="Barang terjual">Barang terjual
-                                    <option value="Barang rusak">Barang rusak
-                                   
-                                </datalist>   
-                            </div>
+            <input class="btn btn-secon dropdown-toggle" type="search" name="Keterangan" list="dropdownMenuButton1"
+             aria-expanded="false" style="width: 326px; margin-left: 26px; margin-top: 21px; background-color:#D0F2A4; height: 50px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Keterangan" required>
+           <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu">
+            <option value="Barang terjual">Barang terjual
+              <option value="Barang rusak">Barang rusak                              
+         </datalist>   
+          </div>
       </div>
 
     </div>
 
     <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
-    <a href ="/product"><button type="submit"style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -47px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Cancel</button></a>
+    <a href ="/product"><button style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -150px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Cancel</button></a>
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
-    <a href ="/product"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px; margin-top: 7px; font-size: 14px; margin-left: 82px; height: 30px; margin-top: 15px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" enable>Reduce</button ></a>
+    <a href ="/product"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px;font-size: 14px; margin-left: 82px; height: 30px; margin-top: -75px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Reduce</button ></a>
     </div>  
     @if(session()->has('error'))
                 <script>

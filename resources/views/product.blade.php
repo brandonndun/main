@@ -44,6 +44,7 @@
                     <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand">{{$produk -> NAMA_PRODUK}}</h2>
                     <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px;">{{$produk -> JUMLAH}}</h2>
                     <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px">{{$produk -> WAREHOUSE_ASAL}}</h2>
+                    
                     <h2 style="text-align:center ; padding-bottom:5px; font-family: quicksand; font-size: 18px">{{$produk -> KETERANGAN}}</h2>
     
     
@@ -84,8 +85,13 @@
                             </div>
     
                             <div class=" col">
-                            <a class="btn btn-primary" href="sendproduct" role="button"
-                            style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand">Send</a>
+                                <form action="/sendproduct" method="POST">
+                                    @csrf
+                                    <input type="hidden" name="idproduk" value="{{$produk->ID_PRODUK}}">
+                                    <input type="hidden" name="warehouse" value="{{$produk -> WAREHOUSE_ASAL}}">
+                                    <input class="btn btn-primary" type="submit" role="button"
+                                    style="width:80% ; box-shadow: 3px 3px 2px grey; background-color: #D0F2A4; color: black; border: none; font-family: quicksand" value="Send">
+                                </form>
                             </div>
                         </div>
     

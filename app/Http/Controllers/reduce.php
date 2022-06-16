@@ -10,9 +10,10 @@ class insert extends Controller
 {
     //
     public function reduce2(Request $request){
-        dd("hola");
+       
        $jumlah = $request -> input('jumlah');
        $idproduk = $request -> input('idproduk');
+       $tujuan = $request -> input('tujuan');
        $keterangan = $request -> input('keterangan');
        $namaproduk = $request -> input('namaproduk');
 

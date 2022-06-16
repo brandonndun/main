@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\add;
+use App\Http\Controllers\send;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
@@ -18,10 +19,11 @@ use APP\Http\Controllers\stockopnameController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/sendproduct', function () {
-    return view('sendproduct');
-});
+Route::POST('/sendproduct', 'App\Http\Controllers\send@viewSend');
+Route::POST('/sendtopencatatan', 'App\Http\Controllers\send@insert_pencatatan');
+// Route::get('/sendproduct', function () {
+//     return view('sendproduct');
+// });
 Route::get('/welcome', function () {
     return view('welcome');
 });
