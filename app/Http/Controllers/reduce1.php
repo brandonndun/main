@@ -34,5 +34,6 @@ class reduce1 extends Controller
         return view ('reduceproduct',[
             "i" => $item
         ]);
+        return redirect("/product");
     }
 }
