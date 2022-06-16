@@ -19,19 +19,19 @@ class signup extends Model
         $run_insert = DB::insert($insert_data);
         return $run_insert;
     }
-
+    //insert produk ke pembelian
     public function insert_produk($id_produk, $supplier, $harga, $warehouse, $jumlah, $status){
         $query = "INSERT INTO `PEMBELIAN`(`Warehouse`, `ID_PRODUK`, `TANGGAL_PEMBELIAN`, `NAMA_SUPPLIER`, `JUMLAH`, `TOTAL_BELI`, `STATUS_PEMBAYARAN`) VALUES ('".$warehouse."', '".$id_produk."', date(now()), '".$supplier."',".$jumlah.",".$harga.", '".$status."');";
         $run_query = DB::insert($query);
         return $run_query;
     }
-
+    //nampilin produk
     public function show_product($id_produk){
         $query = "SELECT * FROM PRODUK WHERE ID_PRODUK = '".$id_produk."';";
         $run_query = DB::select($query);
         return $run_query;
     }
-
+    //insert produk ke pencatatan stok
     public function insert_pencatatan($id_produk, $warehouse, $jumlah){
         $insertquery = "INSERT INTO `PENCATATAN_STOK`(`ID_PENCATATAN`, `ID_PRODUK`, `TANGGAL_PENCATATAN`, `WAREHOUSE_ASAL`, `WAREHOUSE_TUJUAN`, `KETERANGAN`, `JUMLAH`, `DELETE_STATUS`) VALUES ('','".$id_produk."',date(now()),'Supplier','".$warehouse."','Pembelian','".$jumlah."','0')";
         $run_insert = DB::insert($insertquery);
