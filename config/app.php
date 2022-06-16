@@ -163,6 +163,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Yajra\Datatables\DataTablesServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -191,7 +192,8 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        // 'ExampleClass' => App\Example\ExampleClass::class, 
+        'Datatables' => Yajra\DataTables\Facades\Datatables::class,
     ])->toArray(),
 
 ];

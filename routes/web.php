@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
 use App\Http\Controllers\reduce1;
-use APP\Http\Controllers\stockopnameController;
+use App\Http\Controllers\stockopnameController;
 
 
 /*
@@ -65,8 +65,7 @@ Route::get('/navbar', function () {
     return view('navbar');
 });
 Route::get('/transaksi', function () {
-    return view('tagihan_cicilan');
-    
+    return view('tagihan_cicilan'); 
 });
 Route::get('/insertproduct', function () {
     return view('insertproduct');
@@ -83,3 +82,4 @@ Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableprodu
 Route::get('/product', [product::class, 'product']);
 Route::post('/edit','App\Http\Controllers\edit@edit');
 Route::post('/add','App\Http\Controllers\add@add');
+Route::post('/filter',[stockopnameController::class,'tableproduk']);

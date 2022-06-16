@@ -15,31 +15,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="shortcut icon" href="img/Asun-Logo-Header-250 copy.webp" type="image/x-icon">
-    </head>
+    <link rel="shortcut icon" href="img/Asun-Logo-Header-250 copy.webp" type="image/x-icon">
+</head>
 
 <body>
     @include("navbar")
 
 
-    <h1 style="font-family:quicksand; text-align: center; margin-top: 21px; padding-bottom: 20px;">Laporan Stock Opname</h1>
+    <h1 style="font-family:quicksand; text-align: center; margin-top: 21px; padding-bottom: 20px;">Laporan Stock Opname
+    </h1>
 
     <div class="container mt-3">
         <table class="table table-bordered">
-
+            <thead>           
             <div class="row">
-                <div class="col-md-4">
-                    <label>Asal</label>
-                    <select name='filter'id="filter-asal" class="form-control">
-                        <option value="" > Pilih Asal</option>
-                    </select>
+                <div class="col-sm-4" style="width:20%">
+                    <label>Warehouse </label>
+                    <form action="/filter" method="POST">
+                        @csrf
+                        <input type="search" name="filter" list="listfilter">
+                        <datalist id="listfilter">
+                            <option value="solo">Solo</option>
+                            <option value="jakarta">Jakarta</option>
+                            <option value="surabaya">surabaya</option>
+                            <option value="bali">Bali</option>
+                        </datalist>
+                        <input type="submit" value="search">
+                    </form>
+                    <!-- <select name='filter' id="filter-asal" class="form-control">
+                        <option value="solo">Solo</option>
+                        <option value="jakarta">Jakarta</option>
+                        <option value="surabaya">surabaya</option>
+                        <option value="bali">Bali</option>
+                    </select> -->
                 </div>
             </div>
-
-            <thead>
                 <tr style="background-color:#57B846;">
                     <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
-                    <th scope="col" style="text-align:center; font-family: quicksand">ID Produk</th>
+                    <th scope="col" style="text-align:center; font-family: quicksand">Nama Produk</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Asal</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Tujuan</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Jumlah</th>
@@ -51,18 +64,19 @@
             for ($x=0;$x<sizeof($tabel);$x++){
                       echo"
                       <tr>
-                        <td>{$tabel[$x]->Tanggal}</td>
-                        <td>{$tabel[$x]->ID_PRODUK}</td>
+                        <td>{$tabel[$x]->TANGGAL}</td>
+                        <td>{$tabel[$x]->NAMA_PRODUK}</td>
                         <td>{$tabel[$x]->WAREHOUSE_ASAL}</td>
                         <td>{$tabel[$x]->WAREHOUSE_TUJUAN}</td>
                         <td>{$tabel[$x]->JUMLAH}</td>
-                        <td>{$tabel[$x]->Keterangan}</td>
+                        <td>{$tabel[$x]->KETERANGAN}</td>
                       </tr>";
             }
                     ?>
             </tbody>
         </table>
     </div>
-   
+
 </body>
+
 </html>

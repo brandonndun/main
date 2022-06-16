@@ -9,10 +9,12 @@ use Illuminate\Support\Facades\DB;
 class stockopname extends Model
 {
     use HasFactory;
-    public function tableproduk(){
-        $value = "SELECT t.TANGGAL_PENCATATAN as `Tanggal`,t.ID_PRODUK as `ID_PRODUK`,t.WAREHOUSE_ASAL as `WAREHOUSE_ASAL`, t.WAREHOUSE_TUJUAN as `WAREHOUSE_TUJUAN`, t.JUMLAH as `JUMLAH`, `KETERANGAN` as `Keterangan` 
-        FROM PENCATATAN_STOK t";
+    public function  tableproduk($filter){
+        
+        $value = "SELECT TANGGAL_PENCATATAN as `TANGGAL` , NAMA_PRODUK , WAREHOUSE_ASAL , WAREHOUSE_TUJUAN , JUMLAH , KETERANGAN
+        FROM PENCATATAN_STOK A , PRODUK B  WHERE A.ID_PRODUK = B.ID_PRODUK ".$filter.";";
         $produk = DB::select($value);
+        // dd($value) ;
         //me return ketika function tableproduk dipanggil
         return $produk;
 }
