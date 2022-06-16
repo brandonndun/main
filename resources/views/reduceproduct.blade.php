@@ -14,7 +14,7 @@
 </head>
 <body style="overflow: hidden">
 @include('navbar')
-<form action = "/product" method = "post">
+<form action = "/productreduce" method = "post">
   @csrf
 <h1 class="text-center mt-5">Reduce Product</h1>
 <div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
@@ -75,12 +75,12 @@
 
     </div>
 
-    <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
-    <a href ="/product"><button style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -150px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Cancel</button></a>
+    <div class="button-cancel" style= "display: flex; margin-top: 120px; margin-left: 141px">
+    <a href ="/product" style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -100px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg">Cancel</a>
     </div>
 
-    <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
-    <a href ="/product"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px;font-size: 14px; margin-left: 82px; height: 30px; margin-top: -75px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Reduce</button ></a>
+    <div class="button-reduce" style= "display: flex; margin-top: -83px; margin-left: 289px;">
+    <a href ="/product"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px;font-size: 14px; margin-left: 82px; height: 30px; margin-top: -35px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Reduce</button ></a>
     </div>  
     @if(session()->has('error'))
                 <script>

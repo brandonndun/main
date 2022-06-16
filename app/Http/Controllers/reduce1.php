@@ -19,7 +19,7 @@ class reduce1 extends Controller
 
        $lalal  = DB::table('PENCATATAN_STOK')
        ->where('ID_PRODUK',$idproduk)
-       ->update(['JUMLAH'=>$jumlah,'KETERANGAN' => $keterangan,'WAREHOUSE_TUJUAN'=>$tujuan]);
+       ->update(['JUMLAH'=>$jumlah,'KETERANGAN' => $keterangan,'WAREHOUSE_TUJUAN'=>$tujuan,'TANGGAL_PENCATATAN'=>date(now())]);
        return back()->with('Data berubah','Update Berhasil');
    
     }
