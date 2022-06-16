@@ -18,4 +18,13 @@ class stockopname extends Model
         //me return ketika function tableproduk dipanggil
         return $produk;
 }
+
+public function  tabletransaksi(){
+    
+    $value = "SELECT ID_TRANSAKSI , TANGGAL_PEMBELIAN ,Warehouse , NAMA_SUPPLIER , JUMLAH , TOTAL_BELI , STATUS_PEMBAYARAN , NAMA_PRODUK
+    FROM PEMBELIAN A , PRODUK B 
+    WHERE A.ID_PRODUK = B.ID_PRODUK";
+    $pembelian = DB::select($value);
+    return $pembelian;
+}
 }

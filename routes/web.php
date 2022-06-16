@@ -7,6 +7,7 @@ use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
 use App\Http\Controllers\reduce1;
 use App\Http\Controllers\stockopnameController;
+use App\Http\Controllers\tagihan_cicilanController;
 
 
 /*
@@ -64,9 +65,7 @@ Route::get('/reduceproduct/{id}','App\Http\Controllers\reduce1@details');
 Route::get('/navbar', function () {
     return view('navbar');
 });
-Route::get('/transaksi', function () {
-    return view('tagihan_cicilan'); 
-});
+Route::get('/transaksi', 'App\Http\Controllers\tagihan_cicilanController@pembelian');
 Route::get('/insertproduct', function () {
     return view('insertproduct');
 });
