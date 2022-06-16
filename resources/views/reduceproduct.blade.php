@@ -51,11 +51,16 @@
                             </div>
       </div>
       </div>
-
+      <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
+      <label for=""style="margin-top: 30px; margin-left: 80px">Stok Awal</label>
+    <div class="jumlah">
+        <input readonly type="number" value="{{$p[0]->JUMLAH}}"name="sisa" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
+    </div>
+    </div>
   <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
       <label for=""style="margin-top: 30px; margin-left: 80px">Jumlah</label>
     <div class="jumlah">
-        <input type="text" name="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
+        <input type="number" name="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
     </div>
     </div>
 
