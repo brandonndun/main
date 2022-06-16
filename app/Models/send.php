@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use DB;
 
 class insert extends Model
+//insert ke pencatatan
 {
     use HasFactory;
     public function insert_pencatatan($idproduk, $warehouse, $TujuanWarehouse, $jumlah){

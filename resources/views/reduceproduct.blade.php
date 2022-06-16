@@ -14,7 +14,7 @@
 </head>
 <body style="overflow: hidden">
 @include('navbar')
-<form action = "/product" method = "post">
+<form action = "/productreduce" method = "post">
   @csrf
 <h1 class="text-center mt-5">Reduce Product</h1>
 <div class="footer" style="bottom: -75px;position:absolute;width:-webkit-fill-available;">
@@ -22,7 +22,7 @@
 
   <div class="gambar" style="display:flex">
     <div class = "image">
-    <img src="../img/icon-image-512.webp" style="width : 300px; margin-left: 285px;" class="img-fluid" alt="...">
+    <img src="../img/pancake.jpeg" style="width : 350px; margin-left: 200px; margin-top: 61px;" class="img-fluid" alt="...">
     </div>
 
   <div class="inputbox" style="display:flex; flex-direction: column;">
@@ -51,11 +51,16 @@
                             </div>
       </div>
       </div>
-
+      <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
+      <label for=""style="margin-top: 30px; margin-left: 80px">Stok Awal</label>
+    <div class="jumlah">
+        <input readonly type="number" value="{{$p[0]->JUMLAH}}"name="sisa" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
+    </div>
+    </div>
   <div class="jumlah" style="align-items: center; display: flex; margin-left: 39px; font-family : quicksand ">
       <label for=""style="margin-top: 30px; margin-left: 80px">Jumlah</label>
     <div class="jumlah">
-        <input type="text" name="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
+        <input type="number" name="jumlah" class="form-control" style="width: 326px; margin-bottom: -40px; margin-left: 62px; background-color:#D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" id="jumlah" required>
     </div>
     </div>
 
@@ -75,8 +80,8 @@
 
     </div>
 
-    <div class="button-cancel" style= "display: flex; margin-top: 100px; margin-left: 141px">
-    <a href ="/product"><button style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -150px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Cancel</button></a>
+    <div class="button-cancel" style= "display: flex; margin-top: 120px; margin-left: 141px">
+    <a href ="/product" style="background-color: #D0F2A4; color:black; font-family : quicksand; padding-top: 0px; font-size: 14px; margin-top: -100px; height: 30px; margin-left: 340px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg">Cancel</a>
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">

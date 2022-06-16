@@ -18,26 +18,18 @@ class signinController extends Controller
     public function signin(){
         $username = $_POST['username'];
         $password = $_POST['password'];
-        // $data = [
-        //     'username' => $user,
-        //     'password' => $password
-        // ];
-        // dd($user, $password);
         $user = new signin;
         $flag_exist = $user->isExist($username, $password);
         
         if ($flag_exist[0]->count == 1){
             Session::put('user', $username);
             Session::put('pass', $password);
-            // $req->session()->flash('authentication');
-
             return redirect('/home');
 
         } else {
             Session::flash('error', "Invalid signin, please try again");
             return redirect('/');
         }
-
     }
     public function regis(Request $req){
 
@@ -46,13 +38,6 @@ class signinController extends Controller
         $password = $_POST['password'];
         $warehouse =$_POST['Warehouse'];
         $nama = $_POST['nama'];
-
-        // $request = [
-        //     'username' => $user,
-        //     'password' => $password,
-        //     'warehouse' => $warehouse,
-        //     'nama' => $nama
-        // ];
 
         $models = New signup;
         $flag_exist = $models->signup($user, $password, $warehouse, $nama);

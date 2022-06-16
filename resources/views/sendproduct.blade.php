@@ -22,7 +22,7 @@
         @csrf
         <div class="gambar" style="display:flex">
             <div class="image">
-                <img src="img/icon-image-512.webp" style="width : 300px; margin-left: 308px; margin-top: 37px;" class="img-fluid" alt="...">
+            <img src="../img/pancake.jpeg" style="width : 350px; margin-left: 350px; margin-top: 61px;" class="img-fluid" alt="...">
             </div>
             <div class="inputbox" style="display:flex; flex-direction: column;">
                 <div class="form-nama-produk">
