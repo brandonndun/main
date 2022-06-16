@@ -27,16 +27,13 @@
 								<input type="text" class="form-control" id="inputNama" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;" placeholder="Nama Produk" name="nama_produk" required> </div>
 						</div>
 						<div class="form-group row">
-							<div class="col-sm-10" style="width: 50%">
-								<input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;" placeholder="Keterangan" name="keterangan" required> </div>
-						</div>
-						<div class="form-group row">
 							<div class="col-sm-10" style="width: 70%">
 								<input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;" placeholder="Warehouse Asal" name="warehouse_asal" required> </div>
 							<div class="form-group row">
 								<div class="col-sm-10" style="width:50%">
 									<input type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 10px;" placeholder="Jumlah" name="jumlah" required> </div>
 							</div>
+
 							<button type="submit" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 131px; align-items: right; right: 19%; margin-left: 442px; width: 17%">Insert</button>
 						</div>
 					</div>
@@ -49,10 +46,10 @@
             const fileInput = document.querySelector('#input-file')
 
             form.addEventListener('submit', async (e) => {
+				console.log(e)
                 e.preventDefault()
                 const data = new FormData()
                 data.append('nama_produk', document.querySelector('input[name=nama_produk]').value)
-                data.append('keterangan', document.querySelector('input[name=keterangan]').value)
                 data.append('warehouse_asal', document.querySelector('input[name=warehouse_asal]').value)
                 data.append('jumlah', document.querySelector('input[name=jumlah]').value)
                 if (fileInput.files && fileInput.files[0])
@@ -65,7 +62,7 @@
                     body: data
                 })
                 if (result.status === 200)
-                    location.href = '/product'
+                    location.href = '/warehouse'
                 console.log(result)
             })
         </script>

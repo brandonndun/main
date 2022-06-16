@@ -80,7 +80,7 @@
     </div>
 
     <div class="button-reduce" style= "display: flex; margin-top: -63px; margin-left: 289px;">
-    <a href ="/product"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px;font-size: 14px; margin-left: 82px; height: 30px; margin-top: -75px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Reduce</button ></a>
+    <a href ="/warehouse"><button type="submit" style="background-color: #D0F2A4; color: black; font-family : quicksand; padding-top: 0px;font-size: 14px; margin-left: 82px; height: 30px; margin-top: -75px; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" class="btn btn-secon btn-lg" >Reduce</button ></a>
     </div>  
     @if(session()->has('error'))
                 <script>

@@ -15,10 +15,10 @@
         <h1 class="text-center mt-5">Add Product</h1>
         <div class="row" style="">
             <div class="col">
-                <img src="img/image-gallery.png" alt="image-gallery.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
+                <img src="../img/image-gallery.png" alt="image-gallery.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto; ">
             </div>
             <div class="col" style="margin-top:50px">
-                <form action="/add" method="POST">
+                <form action="/add/{{$kota}}" method="POST">
                     @csrf
                     <div class="form-group row">
                         <div class="col-auto">

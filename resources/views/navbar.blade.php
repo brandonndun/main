@@ -18,7 +18,7 @@
 <body style="overflow-x: hidden">
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color : #D0F2A4">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home" style="z-index: 2">
+            <a class="navbar-brand" href="/home" style="z-index: 2">
                 <img src="/img/Asun-Logo-Header-250.webp" style="width : 100px; margin-left:70px;" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"

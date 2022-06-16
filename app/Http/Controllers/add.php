@@ -9,15 +9,15 @@ use App\Models\signup;
 
 class add extends Controller
 {
-    public function show_add(Request $req){
-        $id_produk = $req->input('id_add_produk');
+    public function show_add(Request $req, $kota){
+        $id_produk = $req->input('idproduk');
         $model = new signup;
         $get_data_produk = $model->show_product($id_produk);
 
-        return view('addproduct', compact(['get_data_produk']));
+        return view('addproduct', compact(['get_data_produk', 'kota']));
     }
 
-    public function add(Request $request){
+    public function add(Request $request, $kota){
         $produk = $request->input('nama');
         $id_produk = $request->input('idproduk');
         $supplier = $request->input('supplier');
@@ -28,7 +28,7 @@ class add extends Controller
         $model = new signup;
         $insert = $model->insert_produk($id_produk, $supplier, $harga, $warehouse, $jumlah, $status);
         $insert_pencatatan = $model->insert_pencatatan($id_produk, $warehouse, $jumlah);
-        return redirect('/product');
+        return redirect("/produk/".$kota);
     }
 
     Public function transaksi(Request $request){
@@ -41,6 +41,6 @@ class add extends Controller
         $status = $request->input('Pembayaran');
         $model = new signup;
         $insert = $model->insert_produk($id_produk, $supplier, $harga, $warehouse, $jumlah, $status);
-        return redirect('/product');
+        return redirect("/produk/".$kota);
     }
 }

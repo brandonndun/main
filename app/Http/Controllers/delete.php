@@ -8,13 +8,13 @@ use Illuminate\Support\Facades\DB;
 class delete extends Controller
 {
     //
-    public function deleteproduk(Request $request){
-        DB::table('PENCATATAN_STOK')
-            ->where('ID_PENCATATAN', '=', $request->idpencatatan)
+    public function deleteproduk(Request $request,$kota){
+            DB::table($kota)
+            ->where('id_produk', '=', $request->idproduk)
             ->update([
-                'DELETE_STATUS' => 1
+                'delete_status' => 1
             ]);
-    return redirect("/product");
+    return redirect("/produk/".$kota);
 
     
     }

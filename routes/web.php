@@ -49,13 +49,11 @@ Route::get('/signups', function () {
     return view('signups');
 });
 Route::post('/register', 'App\Http\Controllers\signinController@regis');
-Route::get('/product', function () {
-    return view('product');
-});
+
 Route::get('/produk/{kota}','App\Http\Controllers\product@produkkota');
-Route::post('/editproduct','App\Http\Controllers\edit@editproduk');
+Route::post('/editproduct/{kota}','App\Http\Controllers\edit@editproduk');
 Route::post('/ceksignin','App\Http\Controllers\signinController@signin');
-Route::post('/deleteproduk','App\Http\Controllers\delete@deleteproduk');
+Route::post('/deleteproduk/{kota}','App\Http\Controllers\delete@deleteproduk');
 Route::post('/insertproduk','App\Http\Controllers\insert@insertproduk');
 // Route::post('/product',[reduce::class, 'reduce2']);
 Route::post('/product',[reduce1::class,'reduce2']);
@@ -75,10 +73,10 @@ Route::get('/insertproduct', function () {
 Route::get('/home', function () {
     return view('home');
 });
-Route::POST('/addproduct', 'App\Http\Controllers\add@show_add');
+Route::POST('/addproduct/{kota}', 'App\Http\Controllers\add@show_add');
 Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableproduk');
 
 Route::get('/product', [product::class, 'product']);
-Route::post('/edit','App\Http\Controllers\edit@edit');
-Route::post('/add','App\Http\Controllers\add@add');
+Route::post('/edit/{kota}','App\Http\Controllers\edit@edit');
+Route::post('/add/{kota}','App\Http\Controllers\add@add');
 Route::post('/filter',[stockopnameController::class,'tableproduk']);

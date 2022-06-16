@@ -9,23 +9,18 @@ class edit extends Controller
 {
     //
     //Untuk menampilkan view form editproduct
-    public function editproduk(Request $request){
-    $edit = DB::select('select * from PENCATATAN_STOK where ID_PENCATATAN = :id', ["id" => $request->idpencatatan]);
-    return view('editproduct')->with('edit', $edit);
+    public function editproduk(Request $request, $kota){
+    $edit = DB::table($kota)->where('id_produk', '=', $request->idproduk)->get();
+    return view('editproduct')->with('edit', $edit)->with('kota', $kota);
     }
     //Mengisi value yang akan diisi
-    public function edit(Request $request){
-        DB::table('PRODUK')
-            ->where('ID_PRODUK', '=', $request->idproduk)
+    public function edit(Request $request, $kota){
+        DB::table($kota)
+            ->where('id_produk', '=', $request->idproduk)
             ->update([
-                'NAMA_PRODUK' => $request->nama
+                'nama_produk' => $request->nama
             ]);
-            DB::table('PENCATATAN_STOK')
-            ->where('ID_PENCATATAN', '=', $request->idpencatatan)
-            ->update([
-                'KETERANGAN' => $request->ket
-            ]);
-        return redirect("/product");
+        return redirect("/produk/".$kota);
 
     }
 }
