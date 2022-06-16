@@ -27,29 +27,31 @@
 
     <div class="container mt-3">
         <table class="table table-bordered">
-            <thead>           
-            <div class="row">
-                <div class="col-sm-4" style="width:20%">
-                    <label>Warehouse </label>
-                    <form action="/filter" method="POST">
-                        @csrf
-                        <input type="search" name="filter" list="listfilter">
-                        <datalist id="listfilter">
-                            <option value="solo">Solo</option>
-                            <option value="jakarta">Jakarta</option>
-                            <option value="surabaya">surabaya</option>
-                            <option value="bali">Bali</option>
-                        </datalist>
-                        <input type="submit" value="search">
-                    </form>
-                    <!-- <select name='filter' id="filter-asal" class="form-control">
-                        <option value="solo">Solo</option>
-                        <option value="jakarta">Jakarta</option>
-                        <option value="surabaya">surabaya</option>
-                        <option value="bali">Bali</option>
-                    </select> -->
+            <thead>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Warehouse </h2>
+
+                        <form action="/filter" method="POST">
+                            <div class="row" style="margin-bottom:10px  ">
+                                <div class="col">
+                                    @csrf
+                                    <input type="search" name="filter" list="listfilter">
+                                    <datalist id="listfilter">
+                                        <option value="solo">Solo</option>
+                                        <option value="jakarta">Jakarta</option>
+                                        <option value="surabaya">surabaya</option>
+                                        <option value="bali">Bali</option>
+                                    </datalist>
+                                </div>
+                                <div class="col">
+                                    <input type="submit" value="search" style="background-color:#D0F2A4 ">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
-            </div>
                 <tr style="background-color:#57B846;">
                     <th scope="col" style="text-align:center; font-family: quicksand">Tanggal</th>
                     <th scope="col" style="text-align:center; font-family: quicksand">Nama Produk</th>

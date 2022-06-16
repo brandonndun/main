@@ -12,18 +12,18 @@ class stockopname extends Model
     public function  tableproduk($filter){
         
         $value = "SELECT TANGGAL_PENCATATAN as `TANGGAL` , NAMA_PRODUK , WAREHOUSE_ASAL , WAREHOUSE_TUJUAN , JUMLAH , KETERANGAN
-        FROM PENCATATAN_STOK A , PRODUK B  WHERE A.ID_PRODUK = B.ID_PRODUK ".$filter.";";
+        FROM PENCATATAN_STOK A , PRODUK B  WHERE A.ID_PRODUK = B.ID_PRODUK ".$filter."   ; ";
         $produk = DB::select($value);
         // dd($value) ;
         //me return ketika function tableproduk dipanggil
         return $produk;
 }
 
-public function  tabletransaksi(){
-    
+public function  tabletransaksi($filter1)
+{
     $value = "SELECT ID_TRANSAKSI , TANGGAL_PEMBELIAN ,Warehouse , NAMA_SUPPLIER , JUMLAH , TOTAL_BELI , STATUS_PEMBAYARAN , NAMA_PRODUK
     FROM PEMBELIAN A , PRODUK B 
-    WHERE A.ID_PRODUK = B.ID_PRODUK";
+    WHERE A.ID_PRODUK = B.ID_PRODUK ".$filter1.";";
     $pembelian = DB::select($value);
     return $pembelian;
 }
