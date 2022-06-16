@@ -27,6 +27,7 @@ class add extends Controller
         $status = $request->input('Pembayaran');
         $model = new signup;
         $insert = $model->insert_produk($id_produk, $supplier, $harga, $warehouse, $jumlah, $status);
+        $insert_pencatatan = $model->insert_pencatatan($id_produk, $warehouse, $jumlah);
         return redirect('/product');
     }
 

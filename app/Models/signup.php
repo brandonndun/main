@@ -41,4 +41,10 @@ class signup extends Model
         $run_query = DB::select($query);
         return $run_query;
     }
+
+    public function insert_pencatatan($id_produk, $warehouse, $jumlah){
+        $insertquery = "INSERT INTO `PENCATATAN_STOK`(`ID_PENCATATAN`, `ID_PRODUK`, `TANGGAL_PENCATATAN`, `WAREHOUSE_ASAL`, `WAREHOUSE_TUJUAN`, `KETERANGAN`, `JUMLAH`, `DELETE_STATUS`) VALUES ('','".$id_produk."',date(now()),'Supplier','".$warehouse."','Pembelian','".$jumlah."','0')";
+        $run_insert = DB::insert($insertquery);
+        return $run_insert;
+    }
 }
