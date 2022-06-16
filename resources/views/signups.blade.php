@@ -22,11 +22,27 @@
                     <label for="warehouse">Warehouse</label>
                     <div class="icons">
                         <i class="fa-solid fa-warehouse"></i>
-                    </div>
-                    <input type="text" placeholder="Warehouse" name="warehouse" required>
+                        <!-- <select id="dropdownMenuButton1" style="width : -webkit-fill-available;" class="dropdown dropdown-menu">
+                                    <option value="Jakarta"></option>
+                                    <option value="Surabaya"></option>
+                                    <option value="Bali"></option>
+                                    <option value="Solo"></option>
+                                </select>    -->
+                            </div>
+                            <div class="col-auto">
+                                <input class="btn btn-secon dropdown-toggle" type="search" name="Warehouse" list="dropdownMenuButton1"
+                                    aria-expanded="false" style="width:93%; height:30px; padding:10px; background: #eeeeee; border:0; margin-left:20px;" placeholder="Nama Warehouse" required>
+                                <datalist id="dropdownMenuButton1" class="dropdown dropdown-menu" name="warehouse">
+                                    <option value="Jakarta">Jakarta
+                                    <option value="Surabaya">Surabaya
+                                    <option value="Bali">Bali
+                                    <option value="Solo">Solo
+                                </datalist>   
+                            </div>
+                    <!-- <input type="text" placeholder="Warehouse" name="warehouse" required> -->
                 </div>
                 <div class="group">
-                        <label for="warehouse">Nama</label>
+                        <label for="nama">Nama</label>
                         <div class="icons">
                             <i class="fa-solid fa-pencil"></i>
                         </div>

@@ -44,7 +44,7 @@ class signinController extends Controller
         $messages = array();
         $user = $_POST['username'];
         $password = $_POST['password'];
-        $warehouse =$_POST['warehouse'];
+        $warehouse =$_POST['Warehouse'];
         $nama = $_POST['nama'];
 
         // $request = [

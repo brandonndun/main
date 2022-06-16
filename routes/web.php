@@ -1,10 +1,13 @@
 <?php
 
 use App\Http\Controllers\add;
+use App\Http\Controllers\send;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\product;
 use App\Http\Controllers\signinController;
 use App\Http\Controllers\reduce1;
+use App\Http\Controllers\stockopnameController;
+use App\Http\Controllers\tagihan_cicilanController;
 
 
 /*
@@ -17,10 +20,11 @@ use App\Http\Controllers\reduce1;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/sendproduct', function () {
-    return view('sendproduct');
-});
+Route::POST('/sendproduct', 'App\Http\Controllers\send@viewSend');
+Route::POST('/sendtopencatatan', 'App\Http\Controllers\send@insert_pencatatan');
+// Route::get('/sendproduct', function () {
+//     return view('sendproduct');
+// });
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -61,10 +65,7 @@ Route::get('/reduceproduct/{id}','App\Http\Controllers\reduce1@details');
 Route::get('/navbar', function () {
     return view('navbar');
 });
-Route::get('/transaksi', function () {
-    return view('tagihan_cicilan');
-    
-});
+Route::get('/transaksi', 'App\Http\Controllers\tagihan_cicilanController@pembelian');
 Route::get('/insertproduct', function () {
     return view('insertproduct');
 });
@@ -80,3 +81,4 @@ Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableprodu
 Route::get('/product', [product::class, 'product']);
 Route::post('/edit','App\Http\Controllers\edit@edit');
 Route::post('/add','App\Http\Controllers\add@add');
+Route::post('/filter',[stockopnameController::class,'tableproduk']);
