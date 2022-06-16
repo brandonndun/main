@@ -32,11 +32,6 @@
                         <input name="nama" type="text" class="form-control" id="inputNama" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Nama Produk">
                     </div>
                 </div>
-                <!-- <div class="form-group row">
-                    <div class="col-sm-10">
-                        <input name="ket" type="text" class="form-control" id="inputKet" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none;" placeholder="Keterangan">
-                    </div>
-                </div> -->
                 <button type="submit" class="btn d-flex justify-content-center align-middle" style="background-color: #D0F2A4; border-radius: 10px; box-shadow: 3px 3px 2px grey; border: none; margin-top: 106px; position: absolute; align-items: right; right: 19%;">Save</button>
                 </form>
             </div> 

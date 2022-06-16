@@ -91,55 +91,6 @@
             @endforeach
     <footer class="page-footer font-large special-color-dark pt-4" style="margin-top : 100px;">
 
-       
-<!-- <div class="container">
-
-   
-    <ul class="list-unstyled list-inline text-center">
-
-        <li class="list-inline-item">
-            <a class="btn-floating btn-fb mx-1">
-                <a href="https://www.facebook.com/Durianasunmedan" class="btn-floating btn-lg btn-fb" type="button"
-                    role="button"><i class="fab fa-facebook-f"></i></a>
-            </a>
-        </li>
-
-
-        <li class="list-inline-item">
-            <a class="btn-floating btn-tw mx-1">
-                <a href="https://www.instagram.com/durianaroisby/" class="btn-floating btn-lg btn-ins" type="button" role="button"><i
-                        class="fab fa-instagram"></i></a>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-gplus mx-1">
-                <a class="btn-floating btn-lg btn-gplus" type="button" role="button"><i
-                        class="fab fa-google-plus-g"></i></a>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a class="btn-floating btn-li mx-1">
-                <a href="https://www.youtube.com/channel/UC3Po2UCPQAPj0fgohUGQwkg" class="btn-floating btn-lg btn-yt" type="button" role="button"><i
-                        class="fab fa-youtube"></i></a>
-            </a>
-        </li>
-        <li class="list-inline-item">
-            <a  class="btn-floating btn-dribbble mx-1">
-                <a href="https://api.whatsapp.com/send/?phone=628176867685&text&app_absent=0" class="btn-floating btn-lg btn-whatsapp" type="button" role="button"><i
-                        class="fab fa-whatsapp"></i></a>
-            </a>
-        </li>
-    </ul>
-   
-
-</div>
-
-
-
-<div class="footer-copyright text-center py-3">Durian Asun Surabaya
-
-</div> -->
-
 
 </footer>
 <div class="codeboostrap">
