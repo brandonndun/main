@@ -30,7 +30,7 @@
             <thead>
                 <div class="row">
                     <div class="col-sm-4">
-                        <h2>Warehouse </h2>
+                        <h2 style="font-family: quicksand">Warehouse </h2>
 
                         <form action="/filter" method="POST">
                             <div class="row" style="margin-bottom:10px  ">
@@ -45,7 +45,7 @@
                                     </datalist>
                                 </div>
                                 <div class="col">
-                                    <input type="submit" value="search" style="background-color:#D0F2A4 ">
+                                    <input type="submit" value="search" style="background-color:#D0F2A4; border-radius: 15px ">
                                 </div>
                             </div>
 

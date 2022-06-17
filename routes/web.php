@@ -78,4 +78,5 @@ Route::get('/stockopname','App\Http\Controllers\stockopnameController@tableprodu
 Route::get('/product', [product::class, 'product']);
 Route::post('/edit/{kota}','App\Http\Controllers\edit@edit');
 Route::post('/add/{kota}','App\Http\Controllers\add@add');
+Route::post('/filtertrans',[tagihan_cicilanController::class,'pembelian']);
 Route::post('/filter',[stockopnameController::class,'tableproduk']);

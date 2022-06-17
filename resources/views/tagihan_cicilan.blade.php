@@ -29,7 +29,7 @@
         <table class="table table-bordered">
             <thead>       
                 <div style="width:30%">                
-                    <form action="/filter1" method="POST" >
+                    <form action="/filtertrans" method="POST" >
                                     <div class="row" style="margin-bottom:10px  ">
                                         <div class="col">
                                             @csrf
@@ -42,7 +42,7 @@
                                             </datalist>
                                         </div>  
                                         <div class="col">
-                                            <input type="submit" value="search" style="background-color:#D0F2A4 ">
+                                            <input type="submit" value="search" style="background-color:#D0F2A4; border-radius: 15px">
                                         </div>
                                     </div>
                                 </form>
